@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: luigicastello78-ux/dali-cursor
+  branch: main
+  # Uncomment after you deploy an OAuth auth worker (see setup steps):
+  # base_url: https://YOUR-AUTH-WORKER.workers.dev
+  # auth_methods: [oauth]
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  # Placeholder collection — we'll reshape fields when you pick the section.
+  - name: items
+    label: Items
+    label_singular: Item
+    folder: content/items
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown, required: false }
