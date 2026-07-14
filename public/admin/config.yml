@@ -4,7 +4,7 @@ backend:
   name: github
   repo: luigicastello78-ux/dali-cursor
   branch: main
-  # Uncomment after you deploy an OAuth auth worker (see setup steps):
+  # Uncomment after you deploy an OAuth auth worker (see docs/CMS-SETUP.md):
   # base_url: https://YOUR-AUTH-WORKER.workers.dev
   # auth_methods: [oauth]
 
@@ -12,18 +12,53 @@ media_folder: public/uploads
 public_folder: /uploads
 
 collections:
-  # Placeholder collection — we'll reshape fields when you pick the section.
-  - name: items
-    label: Items
-    label_singular: Item
-    folder: content/items
+  - name: categories
+    label: Categories
+    label_singular: Category
+    folder: content/categories
     create: true
     delete: true
     slug: "{{slug}}"
     extension: md
     format: frontmatter
     fields:
-      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Use lowercase slug, e.g. keyboards" }
+      - { label: Name, name: name, widget: string }
       - { label: Description, name: description, widget: text }
+      - { label: Order, name: order, widget: number, value_type: int, default: 0 }
       - { label: Image, name: image, widget: image, required: false }
-      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: subcategories
+    label: Subcategories
+    label_singular: Subcategory
+    folder: content/subcategories
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Category slug, name: category, widget: string, hint: "Parent category slug, e.g. keyboards" }
+      - { label: Order, name: order, widget: number, value_type: int, default: 0 }
+      - { label: Image, name: image, widget: image, required: false }
+
+  - name: products
+    label: Products
+    label_singular: Product
+    folder: content/products
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Slug, name: slug, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Specs, name: specs, widget: text }
+      - { label: Subcategory slug, name: subcategory, widget: string, hint: "Parent subcategory slug, e.g. solo-keyboards" }
+      - { label: Order, name: order, widget: number, value_type: int, default: 0 }
+      - { label: Image, name: image, widget: image, required: false }

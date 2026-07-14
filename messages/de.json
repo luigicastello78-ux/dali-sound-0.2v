@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "DALI SOUND — Professionelle Event-Equipment-Vermietung",
+    "description": "Mieten Sie Musikinstrumente und professionelle Tontechnik in der Schweiz, Deutschland und Frankreich."
+  },
+  "brand": "DALI SOUND",
+  "languageGate": {
+    "title": "Wählen Sie Ihre Sprache",
+    "subtitle": "Wählen Sie eine Sprache, um zu DALI SOUND fortzufahren"
+  },
+  "nav": {
+    "equipment": "Equipment",
+    "howItWorks": "So funktioniert's",
+    "gallery": "Galerie",
+    "whyUs": "Warum wir",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "getQuote": "Angebot anfordern"
+  },
+  "footer": {
+    "tagline": "Professionelle Ton- und Bühnentechnik-Vermietung in der Schweiz, Deutschland und Frankreich.",
+    "copyright": "© {year} DALI SOUND. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "impressum": "Impressum"
+  },
+  "contact": {
+    "phone": "+41 XX XXX XX XX",
+    "email": "info@dalisound.com",
+    "address": "Adressplatzhalter, Schweiz"
+  },
+  "legal": {
+    "privacyTitle": "Datenschutzerklärung",
+    "termsTitle": "Allgemeine Geschäftsbedingungen",
+    "impressumTitle": "Impressum",
+    "placeholder": "Rechtliche Inhalte werden hier veröffentlicht. Dies ist ein Platzhaltertext bis der endgültige Text vorliegt."
+  },
+  "home": {
+    "hero": {
+      "headline": "Equipment, das Ihr Event unvergesslich klingen lässt.",
+      "subtitle": "Professionelle Instrumente, Lautsprecher und Bühnentechnik — Lieferung und Aufbau in der Schweiz, Deutschland und Frankreich.",
+      "ctaPrimary": "Kostenloses Angebot",
+      "ctaSecondary": "Equipment ansehen",
+      "stats": [
+        { "value": "1,200+", "label": "Events betreut" },
+        { "value": "500+", "label": "Geräte im Bestand" },
+        { "value": "12", "label": "Jahre auf der Bühne" }
+      ]
+    },
+    "categories": {
+      "title": "Alles, was Sie auf der Bühne brauchen.",
+      "subtitle": "Entdecken Sie unsere Equipment-Kategorien — von Keyboards und Drums bis zur kompletten PA-Anlage.",
+      "viewProducts": "Produkte ansehen",
+      "items": [
+        { "slug": "keyboards", "name": "Keyboards", "description": "Stage-Pianos, Arranger und Synthesizer für Live-Auftritte." },
+        { "slug": "drums", "name": "Drums", "description": "Akustische und elektronische Sets für Proben und Events." },
+        { "slug": "guitars", "name": "Gitarren", "description": "E-Gitarren, Akustikgitarren, Verstärker und Zubehör." },
+        { "slug": "speakers", "name": "Lautsprecher", "description": "PA-Systeme, Subwoofer und Monitore für jede Venue." },
+        { "slug": "mixers", "name": "Mischpulte", "description": "Analoge und digitale Mischpulte für Live und Recording." },
+        { "slug": "microphones", "name": "Mikrofone", "description": "Gesangs-, Instrumenten- und Funkmikrofone für Bühne und Events." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Mieten ist einfach",
+      "steps": [
+        { "title": "Erzählen Sie uns von Ihrem Event", "description": "Teilen Sie Datum, Ort und benötigtes Equipment — unverbindlich." },
+        { "title": "Erhalten Sie ein individuelles Angebot", "description": "Wir antworten mit einem maßgeschneiderten Paket und klaren Preisen." },
+        { "title": "Wir liefern & bauen auf", "description": "Unser Team bringt das Equipment und übernimmt den Aufbau vor Ihrem Event." },
+        { "title": "Genießen Sie die Show", "description": "Konzentrieren Sie sich auf Ihr Event — optional mit Support vor Ort." }
+      ]
+    },
+    "whyUs": {
+      "title": "Warum DALI SOUND",
+      "items": [
+        { "title": "Profi-Equipment", "description": "Tour-taugliche Instrumente und Tontechnik in professionellem Zustand." },
+        { "title": "Lieferung & Aufbau", "description": "Lieferung in CH, DE und FR inklusive Installation vor Ort." },
+        { "title": "Support vor Ort", "description": "Optionaler technischer Support während Ihres Events." },
+        { "title": "Regionale Abdeckung", "description": "Vertrauen von Veranstaltern in der Schweiz, Deutschland und Frankreich." }
+      ]
+    },
+    "gallery": {
+      "title": "Aus vergangenen Events",
+      "items": [
+        { "title": "Hochzeitsempfang" },
+        { "title": "Open-Air-Konzert" },
+        { "title": "Firmengala" },
+        { "title": "Club-Nacht" },
+        { "title": "Festival-Bühne" },
+        { "title": "Private Feier" }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        { "question": "Wie früh sollte ich buchen?", "answer": "Wir empfehlen 2–4 Wochen vor dem Event. In der Hochsaison oder bei großen Setups lieber früher — Last-Minute-Anfragen versuchen wir trotzdem zu bedienen." },
+        { "question": "Liefern und bauen Sie auf?", "answer": "Ja. Wir liefern und bauen in der Schweiz, Deutschland und Frankreich auf. Details und Kosten bestätigen wir im Angebot." },
+        { "question": "Kann ich einzelne Artikel mieten?", "answer": "Ja. Einzelne Geräte oder komplette Pakete — teilen Sie uns Ihre Wünsche im Formular mit." },
+        { "question": "Was passiert bei Problemen vor Ort?", "answer": "Optionaler Support vor Ort. Bei Problemen kontaktieren Sie uns sofort — wir helfen schnell weiter." },
+        { "question": "Wie erhalte ich einen Preis?", "answer": "Alle Preise sind eventbezogen. Senden Sie eine Anfrage — wir antworten mit einem detaillierten Angebot." }
+      ]
+    },
+    "contact": {
+      "title": "Sagen Sie uns, was Sie brauchen",
+      "subtitle": "Füllen Sie das Formular aus — wir melden uns mit einem individuellen Angebot."
+    }
+  },
+  "form": {
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "eventDate": "Event-Datum",
+    "country": "Land",
+    "countryPlaceholder": "Land auswählen",
+    "countries": { "CH": "Schweiz", "DE": "Deutschland", "FR": "Frankreich" },
+    "message": "Nachricht",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "errors": {
+      "nameRequired": "Name ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "phoneRequired": "Telefonnummer ist erforderlich.",
+      "eventDateRequired": "Event-Datum ist erforderlich.",
+      "countryRequired": "Bitte wählen Sie ein Land.",
+      "messageRequired": "Nachricht ist erforderlich.",
+      "submitFailed": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es später erneut."
+    }
+  },
+  "thankYou": {
+    "title": "Anfrage gesendet",
+    "message": "Vielen Dank für Ihre Anfrage. Wir prüfen sie und melden uns in Kürze.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "catalog": {
+    "equipment": "Equipment",
+    "subcategories": "Unterkategorien",
+    "products": "Produkte",
+    "specs": "Spezifikationen",
+    "backToHome": "Zurück zur Startseite",
+    "backToCategory": "Zurück zur Kategorie",
+    "backToSubcategory": "Zurück zur Unterkategorie",
+    "emptySubcategories": "Noch keine Unterkategorien verfügbar.",
+    "emptyProducts": "In dieser Unterkategorie sind noch keine Produkte verfügbar.",
+    "getQuote": "Angebot anfordern"
+  }
+}

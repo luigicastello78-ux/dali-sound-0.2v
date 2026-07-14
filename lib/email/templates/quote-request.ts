@@ -9,12 +9,10 @@ const escapeHtml = (value: string): string => {
     .replaceAll("'", "&#39;");
 };
 
-const formatOptionalField = (label: string, value?: string): string => {
-  if (!value?.trim()) {
-    return "";
-  }
-
-  return `<p><strong>${label}:</strong> ${escapeHtml(value.trim())}</p>`;
+const countryLabels: Record<QuoteRequestInput["country"], string> = {
+  CH: "Switzerland",
+  DE: "Germany",
+  FR: "France",
 };
 
 export const buildQuoteRequestEmail = (input: QuoteRequestInput) => {
@@ -22,11 +20,12 @@ export const buildQuoteRequestEmail = (input: QuoteRequestInput) => {
 
   const html = `
     <h1>New quote request</h1>
-    <p>You received a new contact / quote request from the Dali Sound Rent website.</p>
+    <p>You received a new contact / quote request from the DALI SOUND website.</p>
     <p><strong>Name:</strong> ${escapeHtml(input.name)}</p>
     <p><strong>Email:</strong> ${escapeHtml(input.email)}</p>
-    ${formatOptionalField("Phone", input.phone)}
-    ${formatOptionalField("Event date", input.eventDate)}
+    <p><strong>Phone:</strong> ${escapeHtml(input.phone)}</p>
+    <p><strong>Event date:</strong> ${escapeHtml(input.eventDate)}</p>
+    <p><strong>Country:</strong> ${escapeHtml(countryLabels[input.country])}</p>
     <p><strong>Message:</strong></p>
     <p>${escapeHtml(input.message).replaceAll("\n", "<br />")}</p>
   `.trim();
@@ -36,14 +35,13 @@ export const buildQuoteRequestEmail = (input: QuoteRequestInput) => {
     "",
     `Name: ${input.name}`,
     `Email: ${input.email}`,
-    input.phone ? `Phone: ${input.phone}` : null,
-    input.eventDate ? `Event date: ${input.eventDate}` : null,
+    `Phone: ${input.phone}`,
+    `Event date: ${input.eventDate}`,
+    `Country: ${countryLabels[input.country]}`,
     "",
     "Message:",
     input.message,
-  ]
-    .filter((line) => line !== null)
-    .join("\n");
+  ].join("\n");
 
   return { subject, html, text };
 };

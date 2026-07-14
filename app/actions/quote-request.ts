@@ -2,12 +2,14 @@
 
 import { sendQuoteRequestEmail } from "@/lib/email/send-quote-request-email";
 import type { SendQuoteRequestResult } from "@/lib/email/types";
+import { isDeliveryCountry, type DeliveryCountry } from "@/lib/home/constants";
 
 type QuoteRequestFormState = {
   name: string;
   email: string;
   phone: string;
   eventDate: string;
+  country: string;
   message: string;
 };
 
@@ -26,6 +28,18 @@ const validateQuoteRequest = (
 
   if (!emailPattern.test(formData.email.trim())) {
     return "Please enter a valid email address.";
+  }
+
+  if (!formData.phone.trim()) {
+    return "Phone number is required.";
+  }
+
+  if (!formData.eventDate.trim()) {
+    return "Event date is required.";
+  }
+
+  if (!isDeliveryCountry(formData.country)) {
+    return "Please select a valid country.";
   }
 
   if (!formData.message.trim()) {
@@ -47,8 +61,9 @@ export const submitQuoteRequest = async (
   return sendQuoteRequestEmail({
     name: formData.name.trim(),
     email: formData.email.trim(),
-    phone: formData.phone.trim() || undefined,
-    eventDate: formData.eventDate.trim() || undefined,
+    phone: formData.phone.trim(),
+    eventDate: formData.eventDate.trim(),
+    country: formData.country as DeliveryCountry,
     message: formData.message.trim(),
   });
 };
