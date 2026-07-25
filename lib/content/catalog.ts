@@ -1,4 +1,3 @@
-import { CATEGORY_SLUGS, type CategorySlug } from "@/lib/home/constants";
 import { readMarkdownFiles } from "@/lib/content/read-markdown";
 import type {
   Category,
@@ -15,11 +14,7 @@ const sortByOrder = <T extends { order: number }>(items: T[]): T[] => {
 };
 
 const toCategory = (record: CategoryRecord): Category | null => {
-  if (!CATEGORY_SLUGS.includes(record.slug as CategorySlug)) {
-    return null;
-  }
-
-  if (!record.name?.trim() || !record.description?.trim()) {
+  if (!record.slug?.trim() || !record.name?.trim() || !record.description?.trim()) {
     return null;
   }
 
@@ -47,11 +42,24 @@ const toSubcategory = (record: SubcategoryRecord): Subcategory | null => {
   };
 };
 
+const normalizeSpecs = (specs: string | string[] | undefined): string => {
+  if (Array.isArray(specs)) {
+    return specs
+      .map((item) => String(item).trim())
+      .filter(Boolean)
+      .join("\n");
+  }
+
+  return (specs ?? "").trim();
+};
+
 const toProduct = (
   record: ProductRecord,
   categorySlug: string,
 ): Product | null => {
-  if (!record.name?.trim() || !record.description?.trim() || !record.specs?.trim()) {
+  const specs = normalizeSpecs(record.specs);
+
+  if (!record.name?.trim() || !record.description?.trim() || !specs) {
     return null;
   }
 
@@ -61,9 +69,10 @@ const toProduct = (
     categorySlug,
     order: record.order ?? 0,
     image: record.image,
+    gallery: record.gallery,
     name: record.name.trim(),
     description: record.description.trim(),
-    specs: record.specs.trim(),
+    specs,
   };
 };
 
@@ -166,8 +175,8 @@ export const getProduct = (
   return toProduct(record, subcategory.category);
 };
 
-export const getAllCategorySlugs = (): CategorySlug[] => {
-  return getCategories("en").map((item) => item.slug as CategorySlug);
+export const getAllCategorySlugs = (): string[] => {
+  return getCategories("en").map((item) => item.slug);
 };
 
 export const getAllSubcategoryPaths = (): Array<{

@@ -20,9 +20,12 @@ export type ProductRecord = {
   subcategory: string;
   order: number;
   image?: string;
+  gallery?: string[];
   name: string;
   description: string;
-  specs: string;
+  // The CMS "list" widget serializes to a YAML array; older entries use a
+  // multiline string. Accept both and normalize in the loader.
+  specs: string | string[];
 };
 
 export type Category = {
@@ -48,6 +51,7 @@ export type Product = {
   categorySlug: string;
   order: number;
   image?: string;
+  gallery?: string[];
   name: string;
   description: string;
   specs: string;

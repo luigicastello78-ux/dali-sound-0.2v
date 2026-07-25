@@ -1,119 +1,94 @@
 # Sveltia CMS Setup Guide
 
-This project uses **Sveltia CMS** to manage the equipment catalog. Content is stored as Markdown files in `content/` and deployed with the site.
+This project uses **[Sveltia CMS](https://sveltiacms.app/)** to manage the equipment catalog. Content is stored as Markdown files in `content/` and rendered by Next.js. When you publish in the CMS it **commits and pushes to GitHub**, your host rebuilds, and the changes go live.
 
-## What you can manage in CMS
+> **Note:** There is no Eleventy in this project. The site is Next.js, which already statically generates the equipment pages from the Markdown files. Sveltia CMS just edits those files.
+
+## What you can manage
 
 | Collection | Folder | Purpose |
 |---|---|---|
-| **Categories** | `content/categories/` | Keyboards, Drums, Guitars, Speakers, Mixers, Microphones |
-| **Subcategories** | `content/subcategories/` | Groups under each category (must link to a category slug) |
-| **Products** | `content/products/` | Individual rental items (must link to a subcategory slug) |
+| **Categories** | `content/categories/` | Top-level groups (Keyboards, Drums, …). You can add unlimited new ones. |
+| **Subcategories** | `content/subcategories/` | Groups under a category (linked via a dropdown). |
+| **Products** | `content/products/` | Individual rental items (linked to a subcategory via a dropdown). |
 
-Each entry uses simple **Name** and **Description** fields (plus **Specs** for products). The same text is shown on the site in all languages.
+Relationships are chosen from **dropdowns** (the CMS lists existing categories/subcategories) — you never type a slug by hand for the parent link.
 
 ---
 
-## Step 1 — Open the CMS admin locally
+## A. Edit locally (no GitHub needed)
 
-1. Start the dev server:
+Best for building out the catalog on your machine. Sveltia CMS writes straight to the files in `content/` using the browser's **File System Access API** — no proxy server or extra config.
+
+1. Start the site:
    ```bash
    npm run dev
    ```
-2. Open: [http://localhost:3000/admin/index.html](http://localhost:3000/admin/index.html)
-
-> **Note:** Without GitHub OAuth configured, saving from `/admin` in production requires the auth worker (Step 3). Locally you can also edit Markdown files directly in `content/`.
-
----
-
-## Step 2 — Verify GitHub repo settings
-
-CMS config lives at `public/admin/config.yml`.
-
-Current backend:
-
-```yaml
-backend:
-  name: github
-  repo: luigicastello78-ux/dali-cursor
-  branch: main
-```
-
-**If your GitHub repo name differs**, update `repo` to match your repository (`owner/repo-name`).
+2. Open **http://localhost:3000/admin/** in a **Chromium browser (Chrome or Edge)** — the File System Access API isn't available in Firefox/Safari.
+3. On the login screen click **Work with Local Repository** and pick this project's folder (`dali_sound_rent`). Grant read/write when prompted.
+4. Add/edit entries and click **Save**. The Markdown files under `content/` update immediately and the running dev site hot-reloads.
+5. When you're happy, commit and push with git as usual.
 
 ---
 
-## Step 3 — Enable GitHub OAuth for production editing (required for `/admin` saves)
+## B. Edit in production with a GitHub token (PAT)
 
-Sveltia needs a GitHub OAuth proxy to commit changes from the browser.
+This is how you publish live edits from the deployed `/admin` — **no OAuth app or Cloudflare worker required.**
 
-1. Deploy a [Sveltia CMS GitHub OAuth worker](https://sveltia.com/cms/) (Cloudflare Workers is common).
-2. In `public/admin/config.yml`, uncomment and set:
-   ```yaml
-   base_url: https://YOUR-AUTH-WORKER.workers.dev
-   auth_methods: [oauth]
-   ```
-3. Regenerate config if needed:
-   ```bash
-   npm run cms:config
-   ```
-4. Commit and deploy.
+### One-time: create a GitHub token
 
-Until OAuth is set up, you can still:
-- Edit files in `content/` directly in the repo
-- Run `npm run cms:seed` to reset sample catalog data
+1. Go to **GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+2. **Resource owner:** the account/org that owns the repo (`luigicastello78-ux`).
+3. **Repository access:** *Only select repositories* → `dali-cursor`.
+4. **Permissions → Repository permissions → Contents:** **Read and write**.
+5. Set an expiration, generate, and **copy the token** (you only see it once).
+
+### Each browser: sign in
+
+1. Open **`/admin`** on the live site (e.g. `https://your-domain/admin/`).
+2. Click **Sign in with Token**.
+3. Paste the token. It's stored in that browser's local storage and used for GitHub API requests.
+4. Edit content and click **Publish** → Sveltia commits to `content/**` on `main`.
+5. Your host (e.g. Vercel) rebuilds on push and the catalog updates.
+
+> Want a one-click **"Sign in with GitHub"** button instead of pasting a token? That requires deploying the [Sveltia CMS Authenticator](https://github.com/sveltia/sveltia-cms-auth) Cloudflare Worker and adding `base_url:` to the backend config. The token flow above is simpler and recommended for a solo/small team.
 
 ---
 
-## Step 4 — Content structure rules
+## Content rules
 
 ### Categories
-- **Slug** must be one of: `keyboards`, `drums`, `guitars`, `speakers`, `mixers`, `microphones`
-- Must have **at least one subcategory** with products before it appears on the site
+- **Name** + **Slug** (lowercase kebab-case, e.g. `keyboards`) + **Description**.
+- A category only appears on the site once it has **at least one subcategory that has at least one product** (this hides empty categories). It shows automatically on the home "Everything you need on stage" section and at `/[locale]/equipment/[slug]`.
+- Home-page icon: known slugs (keyboards, drums, guitars, speakers, mixers, microphones) get a matching icon; new categories get a default icon.
 
 ### Subcategories
-- **Category slug** must match an existing category (e.g. `keyboards`)
-- Must have **at least one product** before it appears on the site
+- **Parent category** is picked from a dropdown.
+- Appears once it has **at least one product**.
 
 ### Products
-- **Subcategory slug** must match an existing subcategory (e.g. `solo-keyboards`)
-- **One main image** per product (upload via CMS → saved to `public/uploads/`)
-- **Specs** — one item per line (use `- item` format or plain lines)
-- No price or availability fields (quote-only model)
+- **Parent subcategory** is picked from a dropdown.
+- **Specs** is a list — one item per row.
+- **Main image** + optional **Gallery**; uploads are saved to `public/uploads/` and served from `/uploads/...`.
 
 ---
 
-## Step 5 — Add your real catalog content
+## Where content shows up
 
-Recommended order:
-
-1. Create / edit **6 categories**
-2. Add **subcategories** for each category
-3. Add **products** under each subcategory (Name, Description, Specs)
-4. Upload product images via CMS
-5. Commit → Vercel rebuilds → changes go live
-
-### Sample seed data (already included)
-
-The repo includes starter content you can edit or replace:
-
-```bash
-npm run cms:seed
-```
-
-This regenerates sample categories, 12 subcategories, and 6 products.
+| File pattern | Page |
+|---|---|
+| `content/categories/*.md` | Home section + `/[locale]/equipment` + `/[locale]/equipment/[category]` |
+| `content/subcategories/*.md` | `/[locale]/equipment/[category]/[subcategory]` |
+| `content/products/*.md` | `/[locale]/equipment/[category]/[subcategory]/[product]` |
 
 ---
 
-## Step 6 — After you save in CMS
+## Maintenance scripts
 
-1. Sveltia commits Markdown to GitHub (`content/**/*.md`)
-2. Vercel rebuilds on push to `main`
-3. Catalog pages update automatically:
-   - `/[locale]/equipment`
-   - `/[locale]/equipment/[category]`
-   - `/[locale]/equipment/[category]/[subcategory]`
-   - `/[locale]/equipment/[category]/[subcategory]/[product]`
+| Command | Purpose |
+|---|---|
+| `npm run cms:config` | Regenerate `public/admin/config.yml` from `scripts/generate-cms-config.mjs`. |
+| `npm run cms:seed` | Reset the sample catalog data under `content/`. |
 
 ---
 
@@ -121,20 +96,10 @@ This regenerates sample categories, 12 subcategories, and 6 products.
 
 | Issue | Fix |
 |---|---|
-| Category not showing on homepage | Ensure it has ≥1 subcategory with ≥1 product |
-| `/admin` save fails | Set up GitHub OAuth (Step 3) |
-| Image not showing | Upload via CMS; path should be `/uploads/filename.jpg` |
-| Wrong repo on save | Update `repo` in `public/admin/config.yml` |
-| Need to reset sample data | Run `npm run cms:seed` |
+| Category not showing | Give it ≥1 subcategory that has ≥1 product. |
+| `/admin` won't save in production | Sign in with a GitHub PAT that has **Contents: Read and write** on `dali-cursor`. |
+| No "Work with Local Repository" option | Use Chrome or Edge — the File System Access API isn't available in Firefox/Safari. |
+| Image not showing | Upload via the CMS; the stored path should be `/uploads/<file>`. |
+| Wrong repo on save | Update `repo` in `public/admin/config.yml`. |
 
----
-
-## Your action checklist
-
-- [ ] Confirm `public/admin/config.yml` → `repo` matches your GitHub repo
-- [ ] Deploy OAuth worker and enable `base_url` for production CMS access
-- [ ] Replace sample catalog content with your real gear
-- [ ] Upload product/category images to `public/uploads/`
-- [ ] Push to `main` and verify catalog on the live site
-
-For product requirements see [PDR.md](./PDR.md). For architecture see [Tech.md](./Tech.md).
+For product requirements see [PRD.md](./PRD.md) (if present). For architecture see [Tech.md](./Tech.md).

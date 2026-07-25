@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -143,6 +144,25 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </Link>
         </div>
       </div>
+
+      {product.gallery && product.gallery.length > 0 ? (
+        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {product.gallery.map((src) => (
+            <div
+              key={src}
+              className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border/60 bg-card/40"
+            >
+              <Image
+                src={src}
+                alt={product.name}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
+            </div>
+          ))}
+        </div>
+      ) : null}
 
       <ProductSpecs
         title={dictionary.catalog.specs}
