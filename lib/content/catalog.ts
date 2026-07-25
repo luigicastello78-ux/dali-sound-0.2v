@@ -89,13 +89,9 @@ export const getProductRecords = (): ProductRecord[] => {
 };
 
 export const getCategories = (_locale: Locale): Category[] => {
-  const subcategories = getSubcategoryRecords();
-  const categoriesWithSubs = new Set(subcategories.map((item) => item.category));
-
   return sortByOrder(getCategoryRecords())
     .map((record) => toCategory(record))
-    .filter((category): category is Category => category !== null)
-    .filter((category) => categoriesWithSubs.has(category.slug));
+    .filter((category): category is Category => category !== null);
 };
 
 export const getCategory = (slug: string, _locale: Locale): Category | null => {
@@ -108,14 +104,10 @@ export const getSubcategories = (
   categorySlug: string,
   _locale: Locale,
 ): Subcategory[] => {
-  const products = getProductRecords();
-  const subcategoriesWithProducts = new Set(products.map((item) => item.subcategory));
-
   const subcategories = getSubcategoryRecords()
     .filter((item) => item.category === categorySlug)
     .map((record) => toSubcategory(record))
-    .filter((item): item is Subcategory => item !== null)
-    .filter((item) => subcategoriesWithProducts.has(item.slug));
+    .filter((item): item is Subcategory => item !== null);
 
   return sortByOrder(subcategories);
 };
@@ -176,7 +168,9 @@ export const getProduct = (
 };
 
 export const getAllCategorySlugs = (): string[] => {
-  return getCategories("en").map((item) => item.slug);
+  return getCategoryRecords()
+    .map((item) => item.slug)
+    .filter(Boolean);
 };
 
 export const getAllSubcategoryPaths = (): Array<{
