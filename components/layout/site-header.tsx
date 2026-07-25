@@ -33,7 +33,7 @@ export const SiteHeader = ({ locale, dictionary }: SiteHeaderProps) => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link
-            href={homePath}
+            href="/select-language"
             className="font-heading text-lg font-bold tracking-tight text-foreground"
           >
             <span className="text-primary">{dictionary.brand.split(" ")[0]}</span>{" "}
