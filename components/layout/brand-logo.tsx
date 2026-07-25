@@ -17,8 +17,8 @@ export const BrandLogo = ({
     <Image
       src="/dali-sound-logo.png"
       alt={brand}
-      width={1024}
-      height={328}
+      width={883}
+      height={283}
       priority={priority}
       className={cn("h-9 w-auto sm:h-10", className)}
     />

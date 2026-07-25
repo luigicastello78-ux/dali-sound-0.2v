@@ -1,18 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { SectionShell } from "@/components/sections/section-shell";
 import { buttonVariants } from "@/components/ui/button";
+import { HERO_IMAGE } from "@/lib/home/images";
 import type { Dictionary } from "@/lib/i18n/types";
 import type { Locale } from "@/lib/i18n/locales";
 import { localizedPath } from "@/lib/i18n/navigation";
-import { cn } from "@/lib/utils";
 
 type HeroSectionProps = {
   locale: Locale;
   content: Dictionary["home"]["hero"];
 };
-
-const heroBars = [40, 72, 55, 90, 48, 78, 62, 95, 52, 70, 44, 88];
 
 export const HeroSection = ({ locale, content }: HeroSectionProps) => {
   const homePath = localizedPath(locale);
@@ -60,21 +59,16 @@ export const HeroSection = ({ locale, content }: HeroSectionProps) => {
           </dl>
         </div>
 
-        <div
-          aria-hidden
-          className="relative flex h-64 items-end justify-center gap-2 overflow-hidden rounded-2xl border border-border/60 bg-card/40 p-8 sm:h-80 lg:h-[22rem]"
-        >
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,oklch(0.68_0.19_45/0.15),transparent_50%)]" />
-          {heroBars.map((height, index) => (
-            <div
-              key={index}
-              className={cn(
-                "w-3 rounded-full bg-primary/80 sm:w-4",
-                index % 2 === 0 ? "bg-primary" : "bg-primary/60",
-              )}
-              style={{ height: `${height}%` }}
-            />
-          ))}
+        <div className="relative h-64 overflow-hidden rounded-2xl border border-border/60 sm:h-80 lg:h-[22rem]">
+          <Image
+            src={HERO_IMAGE.src}
+            alt={HERO_IMAGE.alt}
+            fill
+            priority
+            className="object-cover"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-tr from-background/70 via-background/20 to-primary/20" />
         </div>
       </div>
     </SectionShell>
