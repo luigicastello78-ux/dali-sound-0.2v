@@ -19,7 +19,7 @@ const config = `# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/s
 
 backend:
   name: github
-  repo: luigicastello78-ux/dali-cursor
+  repo: luigicastello78-ux/dali-sound-0.2v
   branch: main
 
 media_folder: public/uploads

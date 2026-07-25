@@ -39,7 +39,7 @@ This is how you publish live edits from the deployed `/admin` — **no OAuth app
 
 1. Go to **GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
 2. **Resource owner:** the account/org that owns the repo (`luigicastello78-ux`).
-3. **Repository access:** *Only select repositories* → `dali-cursor`.
+3. **Repository access:** *Only select repositories* → `dali-sound-0.2v`.
 4. **Permissions → Repository permissions → Contents:** **Read and write**.
 5. Set an expiration, generate, and **copy the token** (you only see it once).
 
@@ -97,7 +97,7 @@ This is how you publish live edits from the deployed `/admin` — **no OAuth app
 | Issue | Fix |
 |---|---|
 | Category not showing | Give it ≥1 subcategory that has ≥1 product. |
-| `/admin` won't save in production | Sign in with a GitHub PAT that has **Contents: Read and write** on `dali-cursor`. |
+| `/admin` won't save in production | Sign in with a GitHub PAT that has **Contents: Read and write** on `dali-sound-0.2v`. |
 | No "Work with Local Repository" option | Use Chrome or Edge — the File System Access API isn't available in Firefox/Safari. |
 | Image not showing | Upload via the CMS; the stored path should be `/uploads/<file>`. |
 | Wrong repo on save | Update `repo` in `public/admin/config.yml`. |

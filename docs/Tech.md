@@ -264,7 +264,7 @@ sequenceDiagram
 
 - Admin entry: `/admin/index.html`
 - Config: `public/admin/config.yml`
-- Backend: GitHub (`luigicastello78-ux/dali-cursor`, branch `main`)
+- Backend: GitHub (`luigicastello78-ux/dali-sound-0.2v`, branch `main`)
 - Placeholder collection: `items` → `content/items/`
 
 ### 5.2 Target state (v1)
