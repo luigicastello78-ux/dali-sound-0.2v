@@ -24,6 +24,15 @@ export const sendQuoteRequestEmail = async (
 
     if (error) {
       console.error("[QuoteRequest] Resend API error:", JSON.stringify(error, null, 2));
+      
+      // Provide more specific error messages for common issues
+      if (error.message?.includes("not allowed") || error.message?.includes("verify")) {
+        return {
+          success: false,
+          error: "Email configuration error. Please contact support.",
+        };
+      }
+      
       return {
         success: false,
         error: "Unable to send your request right now. Please try again later.",
