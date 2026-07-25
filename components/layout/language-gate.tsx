@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
+import { BrandLogo } from "@/components/layout/brand-logo";
 import { Button } from "@/components/ui/button";
 import { localeDefinitions, LOCALE_COOKIE } from "@/lib/i18n/locales";
 import type { Locale } from "@/lib/i18n/locales";
@@ -27,9 +28,9 @@ export const LanguageGate = ({ brand, title, subtitle }: LanguageGateProps) => {
   return (
     <div className="flex min-h-full flex-col items-center justify-center px-6 py-16">
       <div className="w-full max-w-3xl text-center">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-primary">
-          {brand}
-        </p>
+        <div className="mb-6 flex justify-center">
+          <BrandLogo brand={brand} className="h-12 w-auto sm:h-14" priority />
+        </div>
         <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           {title}
         </h1>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { BrandLogo } from "@/components/layout/brand-logo";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary } from "@/lib/i18n/types";
@@ -34,10 +35,10 @@ export const SiteHeader = ({ locale, dictionary }: SiteHeaderProps) => {
         <div className="flex h-16 items-center justify-between gap-4">
           <Link
             href="/select-language"
-            className="font-heading text-lg font-bold tracking-tight text-foreground"
+            className="inline-flex shrink-0 items-center"
+            aria-label={dictionary.brand}
           >
-            <span className="text-primary">{dictionary.brand.split(" ")[0]}</span>{" "}
-            <span>{dictionary.brand.split(" ").slice(1).join(" ")}</span>
+            <BrandLogo brand={dictionary.brand} priority />
           </Link>
 
           <nav

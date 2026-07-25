@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { BrandLogo } from "@/components/layout/brand-logo";
+
 import type { Dictionary } from "@/lib/i18n/types";
 import type { Locale } from "@/lib/i18n/locales";
 import { localizedPath } from "@/lib/i18n/navigation";
@@ -21,9 +23,7 @@ export const SiteFooter = ({ locale, dictionary }: SiteFooterProps) => {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-md space-y-3">
-            <p className="font-heading text-lg font-bold text-foreground">
-              {dictionary.brand}
-            </p>
+            <BrandLogo brand={dictionary.brand} className="h-10 w-auto" />
             <p className="text-sm leading-relaxed text-muted-foreground">
               {dictionary.footer.tagline}
             </p>
