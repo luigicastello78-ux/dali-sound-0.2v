@@ -131,7 +131,18 @@ export type Dictionary = {
     message: string;
     backHome: string;
   };
+  notFound: {
+    title: string;
+    description: string;
+    backHome: string;
+  };
+  contactLabels: {
+    phone: string;
+    email: string;
+    address: string;
+  };
   catalog: {
+    home: string;
     equipment: string;
     subcategories: string;
     products: string;

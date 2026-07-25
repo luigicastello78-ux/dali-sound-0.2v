@@ -37,198 +37,121 @@
   },
   "home": {
     "hero": {
-      "headline": "Gear that makes your event sound unforgettable.",
-      "subtitle": "Professional instruments, speakers, and stage equipment — delivered and set up across Switzerland, Germany, and France.",
-      "ctaPrimary": "Get a free quote",
-      "ctaSecondary": "Browse equipment",
+      "headline": "Oprema koja čini vaš događaj nezaboravnim.",
+      "subtitle": "Profesionalni instrumenti, zvučnici i binska oprema — dostava i postavljanje u Švajcarskoj, Nemačkoj i Francuskoj.",
+      "ctaPrimary": "Besplatna ponuda",
+      "ctaSecondary": "Pregledajte opremu",
       "stats": [
-        {
-          "value": "1,200+",
-          "label": "Events powered"
-        },
-        {
-          "value": "500+",
-          "label": "Pieces of gear"
-        },
-        {
-          "value": "12",
-          "label": "Years on stage"
-        }
+        { "value": "1.200+", "label": "Realizovanih događaja" },
+        { "value": "500+", "label": "Komada opreme" },
+        { "value": "12", "label": "Godina iskustva" }
       ]
     },
     "categories": {
-      "title": "Everything you need on stage.",
-      "subtitle": "Browse our core equipment categories — from keys and drums to full PA systems.",
-      "viewProducts": "View products",
+      "title": "Sve što vam treba na bini.",
+      "subtitle": "Pregledajte naše kategorije opreme — od klavijatura i bubnjeva do kompletnih PA sistema.",
+      "viewProducts": "Pogledajte proizvode",
       "items": [
-        {
-          "slug": "keyboards",
-          "name": "Keyboards",
-          "description": "Stage pianos, arrangers, and synths for live performance."
-        },
-        {
-          "slug": "drums",
-          "name": "Drums",
-          "description": "Acoustic and electronic kits for rehearsals and events."
-        },
-        {
-          "slug": "guitars",
-          "name": "Guitars",
-          "description": "Electric and acoustic guitars, amps, and accessories."
-        },
-        {
-          "slug": "speakers",
-          "name": "Speakers",
-          "description": "PA systems, subwoofers, and monitors for any venue size."
-        },
-        {
-          "slug": "mixers",
-          "name": "Mixers",
-          "description": "Analog and digital consoles for live sound and recording."
-        },
-        {
-          "slug": "microphones",
-          "name": "Microphones",
-          "description": "Vocal, instrument, and wireless mics for stage and events."
-        }
+        { "slug": "keyboards", "name": "Klavijature", "description": "Stage pianina, aranjeri i sintisajzeri za live nastupe." },
+        { "slug": "drums", "name": "Bubnjevi", "description": "Akustični i elektronski setovi za probe i događaje." },
+        { "slug": "guitars", "name": "Gitare", "description": "Električne i akustične gitare, pojačala i pribor." },
+        { "slug": "speakers", "name": "Zvučnici", "description": "PA sistemi, subwuferi i monitori za svaku veličinu prostora." },
+        { "slug": "mixers", "name": "Miksete", "description": "Analogni i digitalni mikseri za live zvuk i snimanje." },
+        { "slug": "microphones", "name": "Mikrofoni", "description": "Vokalni, instrumentalni i bežični mikrofoni za binu i događaje." }
       ]
     },
     "howItWorks": {
-      "title": "Renting is simple",
+      "title": "Iznajmljivanje je jednostavno",
       "steps": [
-        {
-          "title": "Tell us about your event",
-          "description": "Share your date, location, and what gear you need — no commitment required."
-        },
-        {
-          "title": "Get a tailored quote",
-          "description": "We reply with a custom package and clear pricing for your event."
-        },
-        {
-          "title": "We deliver & set up",
-          "description": "Our team brings the equipment and handles setup before your guests arrive."
-        },
-        {
-          "title": "Enjoy the show",
-          "description": "Focus on your event — we can stay on-site for support if you need it."
-        }
+        { "title": "Recite nam o svom događaju", "description": "Podelite datum, lokaciju i potrebnu opremu — bez obaveze." },
+        { "title": "Dobijte prilagođenu ponudu", "description": "Odgovaramo sa prilagođenim paketom i jasnim cenama." },
+        { "title": "Dostavljamo i postavljamo", "description": "Naš tim donosi opremu i brine se o postavljanju pre vašeg događaja." },
+        { "title": "Uživajte u nastupu", "description": "Fokusirajte se na svoj događaj — možemo ostati na licu mesta za podršku." }
       ]
     },
     "whyUs": {
-      "title": "Why DALI SOUND",
+      "title": "Zašto DALI SOUND",
       "items": [
-        {
-          "title": "Pro-grade gear",
-          "description": "Tour-ready instruments and sound equipment maintained to professional standards."
-        },
-        {
-          "title": "Delivery & setup",
-          "description": "We deliver across CH, DE, and FR and handle on-site installation."
-        },
-        {
-          "title": "On-site support",
-          "description": "Optional technical support during your event for peace of mind."
-        },
-        {
-          "title": "Regional coverage",
-          "description": "Trusted by organizers across Switzerland, Germany, and France."
-        }
+        { "title": "Profesionalna oprema", "description": "Instrumenti i zvučna oprema turnejskog kvaliteta, održavani po profesionalnim standardima." },
+        { "title": "Dostava i postavljanje", "description": "Dostava u CH, DE i FR sa instalacijom na licu mesta." },
+        { "title": "Podrška na licu mesta", "description": "Opciona tehnička podrška tokom vašeg događaja." },
+        { "title": "Regionalna pokrivenost", "description": "Poverenje organizatora u Švajcarskoj, Nemačkoj i Francuskoj." }
       ]
     },
     "gallery": {
-      "title": "From our past events",
+      "title": "Sa naših prethodnih događaja",
       "items": [
-        {
-          "title": "Wedding reception"
-        },
-        {
-          "title": "Open-air concert"
-        },
-        {
-          "title": "Corporate gala"
-        },
-        {
-          "title": "Club night"
-        },
-        {
-          "title": "Festival stage"
-        },
-        {
-          "title": "Private party"
-        }
+        { "title": "Svadbeni prijem" },
+        { "title": "Koncert na otvorenom" },
+        { "title": "Korporativna gala" },
+        { "title": "Klupska noć" },
+        { "title": "Festivalska bina" },
+        { "title": "Privatna zabava" }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
+      "title": "Često postavljana pitanja",
       "items": [
-        {
-          "question": "How far in advance should I book?",
-          "answer": "We recommend reaching out at least 2–4 weeks before your event. For peak season or large setups, earlier is better — we'll always do our best to accommodate last-minute requests."
-        },
-        {
-          "question": "Do you deliver and set up equipment?",
-          "answer": "Yes. We deliver and set up across Switzerland, Germany, and France. Delivery details and costs are confirmed in your quote."
-        },
-        {
-          "question": "Can I rent a single item?",
-          "answer": "Absolutely. You can request individual items or a full package — tell us what you need in the inquiry form."
-        },
-        {
-          "question": "What if something goes wrong on-site?",
-          "answer": "We offer optional on-site technical support. If an issue arises, contact us immediately and we'll help resolve it as quickly as possible."
-        },
-        {
-          "question": "How do I get a price?",
-          "answer": "All pricing is tailored to your event. Submit a quote request and we'll reply with a detailed offer — no online checkout required."
-        }
+        { "question": "Koliko unapred treba da rezervišem?", "answer": "Preporučujemo da nas kontaktirate najmanje 2–4 nedelje pre događaja. U sezoni ili za velike postavke, bolje ranije — uvek ćemo učiniti sve za zahteve u poslednjem trenutku." },
+        { "question": "Da li dostavljate i postavljate opremu?", "answer": "Da. Dostavljamo i postavljamo u Švajcarskoj, Nemačkoj i Francuskoj. Detalji i troškovi dostave se potvrđuju u ponudi." },
+        { "question": "Mogu li iznajmiti samo jedan artikal?", "answer": "Naravno. Možete zatražiti pojedinačne artikle ili kompletan paket — navedite svoje potrebe u formularu." },
+        { "question": "Šta ako nešto pođe po zlu na licu mesta?", "answer": "Nudimo opcionalnu tehničku podršku na licu mesta. Ako se pojavi problem, kontaktirajte nas odmah i pomoći ćemo što je pre moguće." },
+        { "question": "Kako da dobijem cenu?", "answer": "Sve cene su prilagođene vašem događaju. Pošaljite zahtev za ponudu i odgovorićemo sa detaljnom ponudom." }
       ]
     },
     "contact": {
-      "title": "Tell us what you need",
-      "subtitle": "Fill in the form and we'll get back to you with a tailored quote."
+      "title": "Recite nam šta vam treba",
+      "subtitle": "Popunite formular i odgovorićemo vam sa prilagođenom ponudom."
     }
   },
   "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "phone": "Phone number",
-    "eventDate": "Event date",
-    "country": "Country",
-    "countryPlaceholder": "Select country",
-    "countries": {
-      "CH": "Switzerland",
-      "DE": "Germany",
-      "FR": "France"
-    },
-    "message": "Message",
-    "submit": "Send request",
-    "sending": "Sending...",
+    "name": "Puno ime",
+    "email": "E-mail adresa",
+    "phone": "Broj telefona",
+    "eventDate": "Datum događaja",
+    "country": "Država",
+    "countryPlaceholder": "Izaberite državu",
+    "countries": { "CH": "Švajcarska", "DE": "Nemačka", "FR": "Francuska" },
+    "message": "Poruka",
+    "submit": "Pošalji zahtev",
+    "sending": "Slanje...",
     "errors": {
-      "nameRequired": "Name is required.",
-      "emailRequired": "Email is required.",
-      "emailInvalid": "Please enter a valid email address.",
-      "phoneRequired": "Phone number is required.",
-      "eventDateRequired": "Event date is required.",
-      "countryRequired": "Please select a country.",
-      "messageRequired": "Message is required.",
-      "submitFailed": "Unable to send your request right now. Please try again later."
+      "nameRequired": "Ime je obavezno.",
+      "emailRequired": "E-mail je obavezan.",
+      "emailInvalid": "Unesite ispravnu e-mail adresu.",
+      "phoneRequired": "Broj telefona je obavezan.",
+      "eventDateRequired": "Datum događaja je obavezan.",
+      "countryRequired": "Izaberite državu.",
+      "messageRequired": "Poruka je obavezna.",
+      "submitFailed": "Zahtev trenutno nije moguće poslati. Pokušajte ponovo kasnije."
     }
   },
   "thankYou": {
-    "title": "Request sent",
-    "message": "Thank you for your inquiry. We'll review your request and get back to you shortly.",
-    "backHome": "Back to home"
+    "title": "Zahtev poslat",
+    "message": "Hvala na vašem upitu. Pregledaćemo vaš zahtev i javićemo vam se uskoro.",
+    "backHome": "Nazad na početnu"
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "description": "Stranica koju tražite ne postoji.",
+    "backHome": "Nazad na početnu"
+  },
+  "contactLabels": {
+    "phone": "Telefon",
+    "email": "E-mail",
+    "address": "Adresa"
   },
   "catalog": {
-    "equipment": "Equipment",
-    "subcategories": "Subcategories",
-    "products": "Products",
-    "specs": "Specifications",
-    "backToHome": "Back to home",
-    "backToCategory": "Back to category",
-    "backToSubcategory": "Back to subcategory",
-    "emptySubcategories": "No subcategories available yet.",
-    "emptyProducts": "No products available in this subcategory yet.",
-    "getQuote": "Get a quote"
+    "home": "Početna",
+    "equipment": "Oprema",
+    "subcategories": "Potkategorije",
+    "products": "Proizvodi",
+    "specs": "Specifikacije",
+    "backToHome": "Nazad na početnu",
+    "backToCategory": "Nazad na kategoriju",
+    "backToSubcategory": "Nazad na potkategoriju",
+    "emptySubcategories": "Još nema dostupnih potkategorija.",
+    "emptyProducts": "Još nema dostupnih proizvoda u ovoj potkategoriji.",
+    "getQuote": "Zatraži ponudu"
   }
 }

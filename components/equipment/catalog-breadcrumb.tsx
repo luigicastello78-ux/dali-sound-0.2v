@@ -50,9 +50,10 @@ export const CatalogBreadcrumb = ({
 export const buildEquipmentBreadcrumb = (
   locale: Locale,
   segments: BreadcrumbItem[],
+  homeLabel = "Home",
 ): BreadcrumbItem[] => {
   return [
-    { label: "Home", href: localizedPath(locale) },
+    { label: homeLabel, href: localizedPath(locale) },
     ...segments,
   ];
 };

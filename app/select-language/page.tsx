@@ -7,6 +7,7 @@ export default async function SelectLanguagePage() {
 
   return (
     <LanguageGate
+      brand={dictionary.brand}
       title={dictionary.languageGate.title}
       subtitle={dictionary.languageGate.subtitle}
     />

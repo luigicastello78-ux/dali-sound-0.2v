@@ -68,6 +68,7 @@ export default async function HomePage({ params }: HomePageProps) {
         locale={locale}
         homeContact={home.contact}
         contact={dictionary.contact}
+        contactLabels={dictionary.contactLabels}
         form={dictionary.form}
       />
     </>

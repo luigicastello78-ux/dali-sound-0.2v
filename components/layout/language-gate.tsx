@@ -7,6 +7,7 @@ import { localeDefinitions, LOCALE_COOKIE } from "@/lib/i18n/locales";
 import type { Locale } from "@/lib/i18n/locales";
 
 type LanguageGateProps = {
+  brand: string;
   title: string;
   subtitle: string;
 };
@@ -15,7 +16,7 @@ const setLocaleCookie = (locale: Locale) => {
   document.cookie = `${LOCALE_COOKIE}=${locale}; path=/; max-age=${60 * 60 * 24 * 365}; samesite=lax`;
 };
 
-export const LanguageGate = ({ title, subtitle }: LanguageGateProps) => {
+export const LanguageGate = ({ brand, title, subtitle }: LanguageGateProps) => {
   const router = useRouter();
 
   const handleSelectLocale = (locale: Locale) => {
@@ -27,7 +28,7 @@ export const LanguageGate = ({ title, subtitle }: LanguageGateProps) => {
     <div className="flex min-h-full flex-col items-center justify-center px-6 py-16">
       <div className="w-full max-w-3xl text-center">
         <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-primary">
-          DALI SOUND
+          {brand}
         </p>
         <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           {title}

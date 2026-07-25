@@ -45,8 +45,10 @@ export const generateMetadata = async ({
     return {};
   }
 
+  const dictionary = await getDictionary(localeParam as Locale);
+
   return {
-    title: `${category.name} | DALI SOUND`,
+    title: `${category.name} | ${dictionary.brand}`,
     description: category.description,
   };
 };
@@ -77,7 +79,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             href: localizedPath(locale, "/equipment"),
           },
           { label: category.name },
-        ])}
+        ], dictionary.catalog.home)}
         className="mb-8"
       />
 

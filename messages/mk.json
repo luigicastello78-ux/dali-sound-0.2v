@@ -37,198 +37,121 @@
   },
   "home": {
     "hero": {
-      "headline": "Gear that makes your event sound unforgettable.",
-      "subtitle": "Professional instruments, speakers, and stage equipment — delivered and set up across Switzerland, Germany, and France.",
-      "ctaPrimary": "Get a free quote",
-      "ctaSecondary": "Browse equipment",
+      "headline": "Опрема што го прави вашиот настан незаборавен.",
+      "subtitle": "Професионални инструменти, звучници и бинска опрема — доставена и поставена во Швајцарија, Германија и Франција.",
+      "ctaPrimary": "Бесплатна понуда",
+      "ctaSecondary": "Прегледајте ја опремата",
       "stats": [
-        {
-          "value": "1,200+",
-          "label": "Events powered"
-        },
-        {
-          "value": "500+",
-          "label": "Pieces of gear"
-        },
-        {
-          "value": "12",
-          "label": "Years on stage"
-        }
+        { "value": "1.200+", "label": "Реализирани настани" },
+        { "value": "500+", "label": "Парчиња опрема" },
+        { "value": "12", "label": "Години искуство" }
       ]
     },
     "categories": {
-      "title": "Everything you need on stage.",
-      "subtitle": "Browse our core equipment categories — from keys and drums to full PA systems.",
-      "viewProducts": "View products",
+      "title": "Сè што ви треба на бината.",
+      "subtitle": "Прегледајте ги нашите категории на опрема — од клавијатури и тапани до комплетни PA системи.",
+      "viewProducts": "Видете производи",
       "items": [
-        {
-          "slug": "keyboards",
-          "name": "Keyboards",
-          "description": "Stage pianos, arrangers, and synths for live performance."
-        },
-        {
-          "slug": "drums",
-          "name": "Drums",
-          "description": "Acoustic and electronic kits for rehearsals and events."
-        },
-        {
-          "slug": "guitars",
-          "name": "Guitars",
-          "description": "Electric and acoustic guitars, amps, and accessories."
-        },
-        {
-          "slug": "speakers",
-          "name": "Speakers",
-          "description": "PA systems, subwoofers, and monitors for any venue size."
-        },
-        {
-          "slug": "mixers",
-          "name": "Mixers",
-          "description": "Analog and digital consoles for live sound and recording."
-        },
-        {
-          "slug": "microphones",
-          "name": "Microphones",
-          "description": "Vocal, instrument, and wireless mics for stage and events."
-        }
+        { "slug": "keyboards", "name": "Клавијатури", "description": "Сценски пијана, аранжери и синтисајзери за живи настапи." },
+        { "slug": "drums", "name": "Тапани", "description": "Акустични и електронски сетови за проби и настани." },
+        { "slug": "guitars", "name": "Гитари", "description": "Електрични и акустични гитари, засилувачи и додатоци." },
+        { "slug": "speakers", "name": "Звучници", "description": "PA системи, субвуфери и монитори за секоја големина на простор." },
+        { "slug": "mixers", "name": "Миксети", "description": "Аналогни и дигитални миксери за живо и снимање." },
+        { "slug": "microphones", "name": "Микрофони", "description": "Вокални, инструментални и безжични микрофони за бина и настани." }
       ]
     },
     "howItWorks": {
-      "title": "Renting is simple",
+      "title": "Изнајмувањето е едноставно",
       "steps": [
-        {
-          "title": "Tell us about your event",
-          "description": "Share your date, location, and what gear you need — no commitment required."
-        },
-        {
-          "title": "Get a tailored quote",
-          "description": "We reply with a custom package and clear pricing for your event."
-        },
-        {
-          "title": "We deliver & set up",
-          "description": "Our team brings the equipment and handles setup before your guests arrive."
-        },
-        {
-          "title": "Enjoy the show",
-          "description": "Focus on your event — we can stay on-site for support if you need it."
-        }
+        { "title": "Кажете ни за вашиот настан", "description": "Споделете датум, локација и потребна опрема — без обврска." },
+        { "title": "Добијте прилагодена понуда", "description": "Одговараме со прилагоден пакет и јасни цени." },
+        { "title": "Доставуваме и поставуваме", "description": "Нашиот тим ја носи опремата и се грижи за поставувањето пред вашиот настан." },
+        { "title": "Уживајте во шоуто", "description": "Фокусирајте се на вашиот настан — можеме да останеме на лице место за поддршка." }
       ]
     },
     "whyUs": {
-      "title": "Why DALI SOUND",
+      "title": "Зошто DALI SOUND",
       "items": [
-        {
-          "title": "Pro-grade gear",
-          "description": "Tour-ready instruments and sound equipment maintained to professional standards."
-        },
-        {
-          "title": "Delivery & setup",
-          "description": "We deliver across CH, DE, and FR and handle on-site installation."
-        },
-        {
-          "title": "On-site support",
-          "description": "Optional technical support during your event for peace of mind."
-        },
-        {
-          "title": "Regional coverage",
-          "description": "Trusted by organizers across Switzerland, Germany, and France."
-        }
+        { "title": "Професионална опрема", "description": "Инструменти и звучна опрема од турнејски квалитет, одржувани по професионални стандарди." },
+        { "title": "Достава и поставување", "description": "Достава во CH, DE и FR со инсталација на лице место." },
+        { "title": "Поддршка на лице место", "description": "Опционална техничка поддршка за време на вашиот настан." },
+        { "title": "Регионална покриеност", "description": "Доверба на организатори во Швајцарија, Германија и Франција." }
       ]
     },
     "gallery": {
-      "title": "From our past events",
+      "title": "Од нашите претходни настани",
       "items": [
-        {
-          "title": "Wedding reception"
-        },
-        {
-          "title": "Open-air concert"
-        },
-        {
-          "title": "Corporate gala"
-        },
-        {
-          "title": "Club night"
-        },
-        {
-          "title": "Festival stage"
-        },
-        {
-          "title": "Private party"
-        }
+        { "title": "Свадбен прием" },
+        { "title": "Концерт на отворено" },
+        { "title": "Корпоративна гала" },
+        { "title": "Клупска ноќ" },
+        { "title": "Фестивалска бина" },
+        { "title": "Приватна забава" }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
+      "title": "Често поставувани прашања",
       "items": [
-        {
-          "question": "How far in advance should I book?",
-          "answer": "We recommend reaching out at least 2–4 weeks before your event. For peak season or large setups, earlier is better — we'll always do our best to accommodate last-minute requests."
-        },
-        {
-          "question": "Do you deliver and set up equipment?",
-          "answer": "Yes. We deliver and set up across Switzerland, Germany, and France. Delivery details and costs are confirmed in your quote."
-        },
-        {
-          "question": "Can I rent a single item?",
-          "answer": "Absolutely. You can request individual items or a full package — tell us what you need in the inquiry form."
-        },
-        {
-          "question": "What if something goes wrong on-site?",
-          "answer": "We offer optional on-site technical support. If an issue arises, contact us immediately and we'll help resolve it as quickly as possible."
-        },
-        {
-          "question": "How do I get a price?",
-          "answer": "All pricing is tailored to your event. Submit a quote request and we'll reply with a detailed offer — no online checkout required."
-        }
+        { "question": "Колку однапред треба да резервирам?", "answer": "Препорачуваме да нè контактирате најмалку 2–4 недели пред настанот. Во сезона или за големи поставки, подобро порано — секогаш ќе направиме сè за барања во последен момент." },
+        { "question": "Дали доставувате и поставувате опрема?", "answer": "Да. Доставуваме и поставуваме во Швајцарија, Германија и Франција. Деталите и трошоците за достава се потврдуваат во понудата." },
+        { "question": "Можам ли да изнајмам само еден артикл?", "answer": "Секако. Можете да побарате поединечни артикли или комплетен пакет — наведете ги вашите потреби во формуларот." },
+        { "question": "Што ако нешто тргне наопаку на лице место?", "answer": "Нудиме опционална техничка поддршка на лице место. Ако се појави проблем, контактирајте нè веднаш и ќе помогнеме што е можно побрзо." },
+        { "question": "Како да добијам цена?", "answer": "Сите цени се прилагодени на вашиот настан. Испратете барање за понуда и ќе одговориме со детална понуда." }
       ]
     },
     "contact": {
-      "title": "Tell us what you need",
-      "subtitle": "Fill in the form and we'll get back to you with a tailored quote."
+      "title": "Кажете ни што ви треба",
+      "subtitle": "Пополнете го формуларот и ќе ви одговориме со прилагодена понуда."
     }
   },
   "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "phone": "Phone number",
-    "eventDate": "Event date",
-    "country": "Country",
-    "countryPlaceholder": "Select country",
-    "countries": {
-      "CH": "Switzerland",
-      "DE": "Germany",
-      "FR": "France"
-    },
-    "message": "Message",
-    "submit": "Send request",
-    "sending": "Sending...",
+    "name": "Целосно име",
+    "email": "Е-пошта",
+    "phone": "Телефонски број",
+    "eventDate": "Датум на настанот",
+    "country": "Држава",
+    "countryPlaceholder": "Изберете држава",
+    "countries": { "CH": "Швајцарија", "DE": "Германија", "FR": "Франција" },
+    "message": "Порака",
+    "submit": "Испрати барање",
+    "sending": "Се испраќа...",
     "errors": {
-      "nameRequired": "Name is required.",
-      "emailRequired": "Email is required.",
-      "emailInvalid": "Please enter a valid email address.",
-      "phoneRequired": "Phone number is required.",
-      "eventDateRequired": "Event date is required.",
-      "countryRequired": "Please select a country.",
-      "messageRequired": "Message is required.",
-      "submitFailed": "Unable to send your request right now. Please try again later."
+      "nameRequired": "Името е задолжително.",
+      "emailRequired": "Е-поштата е задолжителна.",
+      "emailInvalid": "Внесете валидна адреса за е-пошта.",
+      "phoneRequired": "Телефонскиот број е задолжителен.",
+      "eventDateRequired": "Датумот на настанот е задолжителен.",
+      "countryRequired": "Изберете држава.",
+      "messageRequired": "Пораката е задолжителна.",
+      "submitFailed": "Барањето не може да се испрати моментално. Обидете се повторно подоцна."
     }
   },
   "thankYou": {
-    "title": "Request sent",
-    "message": "Thank you for your inquiry. We'll review your request and get back to you shortly.",
-    "backHome": "Back to home"
+    "title": "Барањето е испратено",
+    "message": "Ви благодариме за вашето барање. Ќе го прегледаме и ќе ви се јавиме наскоро.",
+    "backHome": "Назад на почетна"
+  },
+  "notFound": {
+    "title": "Страницата не е пронајдена",
+    "description": "Страницата што ја барате не постои.",
+    "backHome": "Назад на почетна"
+  },
+  "contactLabels": {
+    "phone": "Телефон",
+    "email": "Е-пошта",
+    "address": "Адреса"
   },
   "catalog": {
-    "equipment": "Equipment",
-    "subcategories": "Subcategories",
-    "products": "Products",
-    "specs": "Specifications",
-    "backToHome": "Back to home",
-    "backToCategory": "Back to category",
-    "backToSubcategory": "Back to subcategory",
-    "emptySubcategories": "No subcategories available yet.",
-    "emptyProducts": "No products available in this subcategory yet.",
-    "getQuote": "Get a quote"
+    "home": "Почетна",
+    "equipment": "Опрема",
+    "subcategories": "Поткатегории",
+    "products": "Производи",
+    "specs": "Спецификации",
+    "backToHome": "Назад на почетна",
+    "backToCategory": "Назад на категорија",
+    "backToSubcategory": "Назад на поткатегорија",
+    "emptySubcategories": "Сè уште нема достапни поткатегории.",
+    "emptyProducts": "Сè уште нема достапни производи во оваа поткатегорија.",
+    "getQuote": "Побарај понуда"
   }
 }

@@ -37,198 +37,121 @@
   },
   "home": {
     "hero": {
-      "headline": "Gear that makes your event sound unforgettable.",
-      "subtitle": "Professional instruments, speakers, and stage equipment — delivered and set up across Switzerland, Germany, and France.",
-      "ctaPrimary": "Get a free quote",
-      "ctaSecondary": "Browse equipment",
+      "headline": "Equipos que hacen que tu evento suene inolvidable.",
+      "subtitle": "Instrumentos profesionales, altavoces y equipo de escenario — entregados e instalados en Suiza, Alemania y Francia.",
+      "ctaPrimary": "Presupuesto gratuito",
+      "ctaSecondary": "Ver equipos",
       "stats": [
-        {
-          "value": "1,200+",
-          "label": "Events powered"
-        },
-        {
-          "value": "500+",
-          "label": "Pieces of gear"
-        },
-        {
-          "value": "12",
-          "label": "Years on stage"
-        }
+        { "value": "1.200+", "label": "Eventos realizados" },
+        { "value": "500+", "label": "Piezas de equipo" },
+        { "value": "12", "label": "Años de experiencia" }
       ]
     },
     "categories": {
-      "title": "Everything you need on stage.",
-      "subtitle": "Browse our core equipment categories — from keys and drums to full PA systems.",
-      "viewProducts": "View products",
+      "title": "Todo lo que necesitas en el escenario.",
+      "subtitle": "Explora nuestras categorías de equipos — desde teclados y baterías hasta sistemas PA completos.",
+      "viewProducts": "Ver productos",
       "items": [
-        {
-          "slug": "keyboards",
-          "name": "Keyboards",
-          "description": "Stage pianos, arrangers, and synths for live performance."
-        },
-        {
-          "slug": "drums",
-          "name": "Drums",
-          "description": "Acoustic and electronic kits for rehearsals and events."
-        },
-        {
-          "slug": "guitars",
-          "name": "Guitars",
-          "description": "Electric and acoustic guitars, amps, and accessories."
-        },
-        {
-          "slug": "speakers",
-          "name": "Speakers",
-          "description": "PA systems, subwoofers, and monitors for any venue size."
-        },
-        {
-          "slug": "mixers",
-          "name": "Mixers",
-          "description": "Analog and digital consoles for live sound and recording."
-        },
-        {
-          "slug": "microphones",
-          "name": "Microphones",
-          "description": "Vocal, instrument, and wireless mics for stage and events."
-        }
+        { "slug": "keyboards", "name": "Teclados", "description": "Pianos de escenario, arregladores y sintetizadores para actuaciones en vivo." },
+        { "slug": "drums", "name": "Baterías", "description": "Kits acústicos y electrónicos para ensayos y eventos." },
+        { "slug": "guitars", "name": "Guitarras", "description": "Guitarras eléctricas y acústicas, amplificadores y accesorios." },
+        { "slug": "speakers", "name": "Altavoces", "description": "Sistemas PA, subwoofers y monitores para cualquier tamaño de venue." },
+        { "slug": "mixers", "name": "Mesas de mezclas", "description": "Consolas analógicas y digitales para sonido en vivo y grabación." },
+        { "slug": "microphones", "name": "Micrófonos", "description": "Micrófonos vocales, instrumentales e inalámbricos para escenario y eventos." }
       ]
     },
     "howItWorks": {
-      "title": "Renting is simple",
+      "title": "Alquilar es sencillo",
       "steps": [
-        {
-          "title": "Tell us about your event",
-          "description": "Share your date, location, and what gear you need — no commitment required."
-        },
-        {
-          "title": "Get a tailored quote",
-          "description": "We reply with a custom package and clear pricing for your event."
-        },
-        {
-          "title": "We deliver & set up",
-          "description": "Our team brings the equipment and handles setup before your guests arrive."
-        },
-        {
-          "title": "Enjoy the show",
-          "description": "Focus on your event — we can stay on-site for support if you need it."
-        }
+        { "title": "Cuéntanos sobre tu evento", "description": "Comparte la fecha, ubicación y el equipo que necesitas — sin compromiso." },
+        { "title": "Recibe un presupuesto personalizado", "description": "Respondemos con un paquete a medida y precios claros." },
+        { "title": "Entrega e instalación", "description": "Nuestro equipo lleva el equipamiento y se encarga del montaje antes de tu evento." },
+        { "title": "Disfruta del espectáculo", "description": "Concéntrate en tu evento — podemos quedarnos en el lugar si lo necesitas." }
       ]
     },
     "whyUs": {
-      "title": "Why DALI SOUND",
+      "title": "Por qué DALI SOUND",
       "items": [
-        {
-          "title": "Pro-grade gear",
-          "description": "Tour-ready instruments and sound equipment maintained to professional standards."
-        },
-        {
-          "title": "Delivery & setup",
-          "description": "We deliver across CH, DE, and FR and handle on-site installation."
-        },
-        {
-          "title": "On-site support",
-          "description": "Optional technical support during your event for peace of mind."
-        },
-        {
-          "title": "Regional coverage",
-          "description": "Trusted by organizers across Switzerland, Germany, and France."
-        }
+        { "title": "Equipo profesional", "description": "Instrumentos y equipos de sonido de gira, mantenidos según estándares profesionales." },
+        { "title": "Entrega y montaje", "description": "Entrega en CH, DE y FR con instalación en el lugar." },
+        { "title": "Soporte en el lugar", "description": "Asistencia técnica opcional durante tu evento." },
+        { "title": "Cobertura regional", "description": "La confianza de organizadores en Suiza, Alemania y Francia." }
       ]
     },
     "gallery": {
-      "title": "From our past events",
+      "title": "De nuestros eventos pasados",
       "items": [
-        {
-          "title": "Wedding reception"
-        },
-        {
-          "title": "Open-air concert"
-        },
-        {
-          "title": "Corporate gala"
-        },
-        {
-          "title": "Club night"
-        },
-        {
-          "title": "Festival stage"
-        },
-        {
-          "title": "Private party"
-        }
+        { "title": "Recepción de boda" },
+        { "title": "Concierto al aire libre" },
+        { "title": "Gala corporativa" },
+        { "title": "Noche de club" },
+        { "title": "Escenario de festival" },
+        { "title": "Fiesta privada" }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
+      "title": "Preguntas frecuentes",
       "items": [
-        {
-          "question": "How far in advance should I book?",
-          "answer": "We recommend reaching out at least 2–4 weeks before your event. For peak season or large setups, earlier is better — we'll always do our best to accommodate last-minute requests."
-        },
-        {
-          "question": "Do you deliver and set up equipment?",
-          "answer": "Yes. We deliver and set up across Switzerland, Germany, and France. Delivery details and costs are confirmed in your quote."
-        },
-        {
-          "question": "Can I rent a single item?",
-          "answer": "Absolutely. You can request individual items or a full package — tell us what you need in the inquiry form."
-        },
-        {
-          "question": "What if something goes wrong on-site?",
-          "answer": "We offer optional on-site technical support. If an issue arises, contact us immediately and we'll help resolve it as quickly as possible."
-        },
-        {
-          "question": "How do I get a price?",
-          "answer": "All pricing is tailored to your event. Submit a quote request and we'll reply with a detailed offer — no online checkout required."
-        }
+        { "question": "¿Con cuánta antelación debo reservar?", "answer": "Recomendamos contactarnos al menos 2–4 semanas antes de tu evento. En temporada alta o montajes grandes, mejor antes — siempre haremos lo posible por atender solicitudes de último momento." },
+        { "question": "¿Entregan e instalan el equipo?", "answer": "Sí. Entregamos e instalamos en Suiza, Alemania y Francia. Los detalles y costes de entrega se confirman en tu presupuesto." },
+        { "question": "¿Puedo alquilar un solo artículo?", "answer": "Por supuesto. Puedes solicitar artículos individuales o un paquete completo — indícanos tus necesidades en el formulario." },
+        { "question": "¿Qué pasa si algo sale mal en el lugar?", "answer": "Ofrecemos soporte técnico opcional en el lugar. Si surge un problema, contáctanos inmediatamente y lo resolveremos lo antes posible." },
+        { "question": "¿Cómo obtengo un precio?", "answer": "Todos los precios se adaptan a tu evento. Envía una solicitud de presupuesto y te responderemos con una oferta detallada." }
       ]
     },
     "contact": {
-      "title": "Tell us what you need",
-      "subtitle": "Fill in the form and we'll get back to you with a tailored quote."
+      "title": "Dinos qué necesitas",
+      "subtitle": "Rellena el formulario y te responderemos con un presupuesto personalizado."
     }
   },
   "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "phone": "Phone number",
-    "eventDate": "Event date",
-    "country": "Country",
-    "countryPlaceholder": "Select country",
-    "countries": {
-      "CH": "Switzerland",
-      "DE": "Germany",
-      "FR": "France"
-    },
-    "message": "Message",
-    "submit": "Send request",
-    "sending": "Sending...",
+    "name": "Nombre completo",
+    "email": "Dirección de correo electrónico",
+    "phone": "Número de teléfono",
+    "eventDate": "Fecha del evento",
+    "country": "País",
+    "countryPlaceholder": "Selecciona un país",
+    "countries": { "CH": "Suiza", "DE": "Alemania", "FR": "Francia" },
+    "message": "Mensaje",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando...",
     "errors": {
-      "nameRequired": "Name is required.",
-      "emailRequired": "Email is required.",
-      "emailInvalid": "Please enter a valid email address.",
-      "phoneRequired": "Phone number is required.",
-      "eventDateRequired": "Event date is required.",
-      "countryRequired": "Please select a country.",
-      "messageRequired": "Message is required.",
-      "submitFailed": "Unable to send your request right now. Please try again later."
+      "nameRequired": "El nombre es obligatorio.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailInvalid": "Por favor, introduce un correo electrónico válido.",
+      "phoneRequired": "El número de teléfono es obligatorio.",
+      "eventDateRequired": "La fecha del evento es obligatoria.",
+      "countryRequired": "Por favor, selecciona un país.",
+      "messageRequired": "El mensaje es obligatorio.",
+      "submitFailed": "No se pudo enviar la solicitud en este momento. Por favor, inténtalo de nuevo más tarde."
     }
   },
   "thankYou": {
-    "title": "Request sent",
-    "message": "Thank you for your inquiry. We'll review your request and get back to you shortly.",
-    "backHome": "Back to home"
+    "title": "Solicitud enviada",
+    "message": "Gracias por tu consulta. Revisaremos tu solicitud y te responderemos a la brevedad.",
+    "backHome": "Volver al inicio"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe.",
+    "backHome": "Volver al inicio"
+  },
+  "contactLabels": {
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "address": "Dirección"
   },
   "catalog": {
-    "equipment": "Equipment",
-    "subcategories": "Subcategories",
-    "products": "Products",
-    "specs": "Specifications",
-    "backToHome": "Back to home",
-    "backToCategory": "Back to category",
-    "backToSubcategory": "Back to subcategory",
-    "emptySubcategories": "No subcategories available yet.",
-    "emptyProducts": "No products available in this subcategory yet.",
-    "getQuote": "Get a quote"
+    "home": "Inicio",
+    "equipment": "Equipos",
+    "subcategories": "Subcategorías",
+    "products": "Productos",
+    "specs": "Especificaciones",
+    "backToHome": "Volver al inicio",
+    "backToCategory": "Volver a la categoría",
+    "backToSubcategory": "Volver a la subcategoría",
+    "emptySubcategories": "No hay subcategorías disponibles aún.",
+    "emptyProducts": "No hay productos disponibles en esta subcategoría aún.",
+    "getQuote": "Solicitar presupuesto"
   }
 }

@@ -37,198 +37,121 @@
   },
   "home": {
     "hero": {
-      "headline": "Gear that makes your event sound unforgettable.",
-      "subtitle": "Professional instruments, speakers, and stage equipment — delivered and set up across Switzerland, Germany, and France.",
-      "ctaPrimary": "Get a free quote",
-      "ctaSecondary": "Browse equipment",
+      "headline": "Εξοπλισμός που κάνει την εκδήλωσή σας αξέχαστη.",
+      "subtitle": "Επαγγελματικά όργανα, ηχεία και σκηνικός εξοπλισμός — παράδοση και εγκατάσταση σε Ελβετία, Γερμανία και Γαλλία.",
+      "ctaPrimary": "Δωρεάν προσφορά",
+      "ctaSecondary": "Δείτε τον εξοπλισμό",
       "stats": [
-        {
-          "value": "1,200+",
-          "label": "Events powered"
-        },
-        {
-          "value": "500+",
-          "label": "Pieces of gear"
-        },
-        {
-          "value": "12",
-          "label": "Years on stage"
-        }
+        { "value": "1.200+", "label": "Εκδηλώσεις που υποστηρίξαμε" },
+        { "value": "500+", "label": "Κομμάτια εξοπλισμού" },
+        { "value": "12", "label": "Χρόνια εμπειρίας" }
       ]
     },
     "categories": {
-      "title": "Everything you need on stage.",
-      "subtitle": "Browse our core equipment categories — from keys and drums to full PA systems.",
-      "viewProducts": "View products",
+      "title": "Ό,τι χρειάζεστε στη σκηνή.",
+      "subtitle": "Εξερευνήστε τις κατηγορίες εξοπλισμού μας — από πλήκτρα και ντραμς μέχρι πλήρη PA συστήματα.",
+      "viewProducts": "Δείτε τα προϊόντα",
       "items": [
-        {
-          "slug": "keyboards",
-          "name": "Keyboards",
-          "description": "Stage pianos, arrangers, and synths for live performance."
-        },
-        {
-          "slug": "drums",
-          "name": "Drums",
-          "description": "Acoustic and electronic kits for rehearsals and events."
-        },
-        {
-          "slug": "guitars",
-          "name": "Guitars",
-          "description": "Electric and acoustic guitars, amps, and accessories."
-        },
-        {
-          "slug": "speakers",
-          "name": "Speakers",
-          "description": "PA systems, subwoofers, and monitors for any venue size."
-        },
-        {
-          "slug": "mixers",
-          "name": "Mixers",
-          "description": "Analog and digital consoles for live sound and recording."
-        },
-        {
-          "slug": "microphones",
-          "name": "Microphones",
-          "description": "Vocal, instrument, and wireless mics for stage and events."
-        }
+        { "slug": "keyboards", "name": "Πλήκτρα", "description": "Σκηνικά πιάνα, arrangers και συνθεσάιζερ για ζωντανές εμφανίσεις." },
+        { "slug": "drums", "name": "Ντραμς", "description": "Ακουστικά και ηλεκτρονικά σετ για πρόβες και εκδηλώσεις." },
+        { "slug": "guitars", "name": "Κιθάρες", "description": "Ηλεκτρικές και ακουστικές κιθάρες, ενισχυτές και αξεσουάρ." },
+        { "slug": "speakers", "name": "Ηχεία", "description": "PA συστήματα, subwoofer και monitor για κάθε μέγεθος χώρου." },
+        { "slug": "mixers", "name": "Μίκτες", "description": "Αναλογικές και ψηφιακές κονσόλες για ζωντανό ήχο και εγγραφή." },
+        { "slug": "microphones", "name": "Μικρόφωνα", "description": "Φωνητικά, οργάνων και ασύρματα μικρόφωνα για σκηνή και εκδηλώσεις." }
       ]
     },
     "howItWorks": {
-      "title": "Renting is simple",
+      "title": "Η ενοικίαση είναι απλή",
       "steps": [
-        {
-          "title": "Tell us about your event",
-          "description": "Share your date, location, and what gear you need — no commitment required."
-        },
-        {
-          "title": "Get a tailored quote",
-          "description": "We reply with a custom package and clear pricing for your event."
-        },
-        {
-          "title": "We deliver & set up",
-          "description": "Our team brings the equipment and handles setup before your guests arrive."
-        },
-        {
-          "title": "Enjoy the show",
-          "description": "Focus on your event — we can stay on-site for support if you need it."
-        }
+        { "title": "Πείτε μας για την εκδήλωσή σας", "description": "Μοιραστείτε ημερομηνία, τοποθεσία και εξοπλισμό που χρειάζεστε — χωρίς δέσμευση." },
+        { "title": "Λάβετε εξατομικευμένη προσφορά", "description": "Απαντάμε με εξατομικευμένο πακέτο και σαφείς τιμές." },
+        { "title": "Παραδίδουμε και εγκαθιστούμε", "description": "Η ομάδα μας φέρνει τον εξοπλισμό και αναλαμβάνει την εγκατάσταση πριν την εκδήλωσή σας." },
+        { "title": "Απολαύστε το σόου", "description": "Εστιάστε στην εκδήλωσή σας — μπορούμε να μείνουμε στο χώρο για υποστήριξη." }
       ]
     },
     "whyUs": {
-      "title": "Why DALI SOUND",
+      "title": "Γιατί DALI SOUND",
       "items": [
-        {
-          "title": "Pro-grade gear",
-          "description": "Tour-ready instruments and sound equipment maintained to professional standards."
-        },
-        {
-          "title": "Delivery & setup",
-          "description": "We deliver across CH, DE, and FR and handle on-site installation."
-        },
-        {
-          "title": "On-site support",
-          "description": "Optional technical support during your event for peace of mind."
-        },
-        {
-          "title": "Regional coverage",
-          "description": "Trusted by organizers across Switzerland, Germany, and France."
-        }
+        { "title": "Επαγγελματικός εξοπλισμός", "description": "Όργανα και ηχητικός εξοπλισμός περιοδείας, συντηρημένα σε επαγγελματικά πρότυπα." },
+        { "title": "Παράδοση και εγκατάσταση", "description": "Παράδοση σε CH, DE και FR με εγκατάσταση στο χώρο." },
+        { "title": "Υποστήριξη στο χώρο", "description": "Προαιρετική τεχνική υποστήριξη κατά τη διάρκεια της εκδήλωσής σας." },
+        { "title": "Περιφερειακή κάλυψη", "description": "Η εμπιστοσύνη διοργανωτών σε Ελβετία, Γερμανία και Γαλλία." }
       ]
     },
     "gallery": {
-      "title": "From our past events",
+      "title": "Από τις προηγούμενες εκδηλώσεις μας",
       "items": [
-        {
-          "title": "Wedding reception"
-        },
-        {
-          "title": "Open-air concert"
-        },
-        {
-          "title": "Corporate gala"
-        },
-        {
-          "title": "Club night"
-        },
-        {
-          "title": "Festival stage"
-        },
-        {
-          "title": "Private party"
-        }
+        { "title": "Δεξίωση γάμου" },
+        { "title": "Υπαίθρια συναυλία" },
+        { "title": "Εταιρική γκαλά" },
+        { "title": "Βραδιά σε κλαμπ" },
+        { "title": "Σκηνή φεστιβάλ" },
+        { "title": "Ιδιωτικό πάρτι" }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
+      "title": "Συχνές ερωτήσεις",
       "items": [
-        {
-          "question": "How far in advance should I book?",
-          "answer": "We recommend reaching out at least 2–4 weeks before your event. For peak season or large setups, earlier is better — we'll always do our best to accommodate last-minute requests."
-        },
-        {
-          "question": "Do you deliver and set up equipment?",
-          "answer": "Yes. We deliver and set up across Switzerland, Germany, and France. Delivery details and costs are confirmed in your quote."
-        },
-        {
-          "question": "Can I rent a single item?",
-          "answer": "Absolutely. You can request individual items or a full package — tell us what you need in the inquiry form."
-        },
-        {
-          "question": "What if something goes wrong on-site?",
-          "answer": "We offer optional on-site technical support. If an issue arises, contact us immediately and we'll help resolve it as quickly as possible."
-        },
-        {
-          "question": "How do I get a price?",
-          "answer": "All pricing is tailored to your event. Submit a quote request and we'll reply with a detailed offer — no online checkout required."
-        }
+        { "question": "Πόσο νωρίς πρέπει να κάνω κράτηση;", "answer": "Συνιστούμε να επικοινωνήσετε τουλάχιστον 2–4 εβδομάδες πριν την εκδήλωσή σας. Σε περίοδο αιχμής ή για μεγάλες εγκαταστάσεις, νωρίτερα είναι καλύτερα — πάντα θα κάνουμε ό,τι μπορούμε για αιτήματα τελευταίας στιγμής." },
+        { "question": "Παραδίδετε και εγκαθιστάτε τον εξοπλισμό;", "answer": "Ναι. Παραδίδουμε και εγκαθιστούμε σε Ελβετία, Γερμανία και Γαλλία. Οι λεπτομέρειες και το κόστος παράδοσης επιβεβαιώνονται στην προσφορά σας." },
+        { "question": "Μπορώ να ενοικιάσω ένα μόνο αντικείμενο;", "answer": "Φυσικά. Μπορείτε να ζητήσετε μεμονωμένα αντικείμενα ή ένα πλήρες πακέτο — πείτε μας τις ανάγκες σας στη φόρμα." },
+        { "question": "Τι γίνεται αν κάτι πάει στραβά στο χώρο;", "answer": "Προσφέρουμε προαιρετική τεχνική υποστήριξη στο χώρο. Σε περίπτωση προβλήματος, επικοινωνήστε μαζί μας αμέσως και θα βοηθήσουμε το συντομότερο δυνατό." },
+        { "question": "Πώς μπορώ να πάρω τιμή;", "answer": "Όλες οι τιμές προσαρμόζονται στην εκδήλωσή σας. Υποβάλετε αίτημα προσφοράς και θα απαντήσουμε με λεπτομερή προσφορά." }
       ]
     },
     "contact": {
-      "title": "Tell us what you need",
-      "subtitle": "Fill in the form and we'll get back to you with a tailored quote."
+      "title": "Πείτε μας τι χρειάζεστε",
+      "subtitle": "Συμπληρώστε τη φόρμα και θα σας απαντήσουμε με εξατομικευμένη προσφορά."
     }
   },
   "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "phone": "Phone number",
-    "eventDate": "Event date",
-    "country": "Country",
-    "countryPlaceholder": "Select country",
-    "countries": {
-      "CH": "Switzerland",
-      "DE": "Germany",
-      "FR": "France"
-    },
-    "message": "Message",
-    "submit": "Send request",
-    "sending": "Sending...",
+    "name": "Πλήρες όνομα",
+    "email": "Διεύθυνση email",
+    "phone": "Αριθμός τηλεφώνου",
+    "eventDate": "Ημερομηνία εκδήλωσης",
+    "country": "Χώρα",
+    "countryPlaceholder": "Επιλέξτε χώρα",
+    "countries": { "CH": "Ελβετία", "DE": "Γερμανία", "FR": "Γαλλία" },
+    "message": "Μήνυμα",
+    "submit": "Αποστολή αιτήματος",
+    "sending": "Αποστολή...",
     "errors": {
-      "nameRequired": "Name is required.",
-      "emailRequired": "Email is required.",
-      "emailInvalid": "Please enter a valid email address.",
-      "phoneRequired": "Phone number is required.",
-      "eventDateRequired": "Event date is required.",
-      "countryRequired": "Please select a country.",
-      "messageRequired": "Message is required.",
-      "submitFailed": "Unable to send your request right now. Please try again later."
+      "nameRequired": "Το όνομα είναι υποχρεωτικό.",
+      "emailRequired": "Το email είναι υποχρεωτικό.",
+      "emailInvalid": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",
+      "phoneRequired": "Ο αριθμός τηλεφώνου είναι υποχρεωτικός.",
+      "eventDateRequired": "Η ημερομηνία εκδήλωσης είναι υποχρεωτική.",
+      "countryRequired": "Παρακαλώ επιλέξτε χώρα.",
+      "messageRequired": "Το μήνυμα είναι υποχρεωτικό.",
+      "submitFailed": "Δεν ήταν δυνατή η αποστολή του αιτήματός σας αυτή τη στιγμή. Παρακαλώ δοκιμάστε ξανά αργότερα."
     }
   },
   "thankYou": {
-    "title": "Request sent",
-    "message": "Thank you for your inquiry. We'll review your request and get back to you shortly.",
-    "backHome": "Back to home"
+    "title": "Το αίτημα εστάλη",
+    "message": "Ευχαριστούμε για το ερώτημά σας. Θα εξετάσουμε το αίτημά σας και θα επικοινωνήσουμε σύντομα.",
+    "backHome": "Επιστροφή στην αρχική"
+  },
+  "notFound": {
+    "title": "Η σελίδα δεν βρέθηκε",
+    "description": "Η σελίδα που αναζητάτε δεν υπάρχει.",
+    "backHome": "Επιστροφή στην αρχική"
+  },
+  "contactLabels": {
+    "phone": "Τηλέφωνο",
+    "email": "Email",
+    "address": "Διεύθυνση"
   },
   "catalog": {
-    "equipment": "Equipment",
-    "subcategories": "Subcategories",
-    "products": "Products",
-    "specs": "Specifications",
-    "backToHome": "Back to home",
-    "backToCategory": "Back to category",
-    "backToSubcategory": "Back to subcategory",
-    "emptySubcategories": "No subcategories available yet.",
-    "emptyProducts": "No products available in this subcategory yet.",
-    "getQuote": "Get a quote"
+    "home": "Αρχική",
+    "equipment": "Εξοπλισμός",
+    "subcategories": "Υποκατηγορίες",
+    "products": "Προϊόντα",
+    "specs": "Προδιαγραφές",
+    "backToHome": "Επιστροφή στην αρχική",
+    "backToCategory": "Επιστροφή στην κατηγορία",
+    "backToSubcategory": "Επιστροφή στην υποκατηγορία",
+    "emptySubcategories": "Δεν υπάρχουν ακόμα διαθέσιμες υποκατηγορίες.",
+    "emptyProducts": "Δεν υπάρχουν ακόμα διαθέσιμα προϊόντα σε αυτή την υποκατηγορία.",
+    "getQuote": "Ζητήστε προσφορά"
   }
 }

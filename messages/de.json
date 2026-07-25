@@ -131,7 +131,18 @@
     "message": "Vielen Dank für Ihre Anfrage. Wir prüfen sie und melden uns in Kürze.",
     "backHome": "Zurück zur Startseite"
   },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "contactLabels": {
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse"
+  },
   "catalog": {
+    "home": "Startseite",
     "equipment": "Equipment",
     "subcategories": "Unterkategorien",
     "products": "Produkte",

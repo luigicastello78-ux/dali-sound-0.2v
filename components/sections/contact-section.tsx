@@ -14,6 +14,7 @@ type ContactSectionProps = {
   locale: Locale;
   homeContact: Dictionary["home"]["contact"];
   contact: Dictionary["contact"];
+  contactLabels: Dictionary["contactLabels"];
   form: Dictionary["form"];
 };
 
@@ -21,6 +22,7 @@ export const ContactSection = ({
   locale,
   homeContact,
   contact,
+  contactLabels,
   form,
 }: ContactSectionProps) => {
   return (
@@ -40,7 +42,7 @@ export const ContactSection = ({
                 <HugeiconsIcon icon={CallIcon} strokeWidth={2} className="size-4" />
               </span>
               <div>
-                <p className="text-sm font-medium text-foreground">Phone</p>
+                <p className="text-sm font-medium text-foreground">{contactLabels.phone}</p>
                 <p className="text-sm text-muted-foreground">{contact.phone}</p>
               </div>
             </li>
@@ -49,7 +51,7 @@ export const ContactSection = ({
                 <HugeiconsIcon icon={Mail01Icon} strokeWidth={2} className="size-4" />
               </span>
               <div>
-                <p className="text-sm font-medium text-foreground">Email</p>
+                <p className="text-sm font-medium text-foreground">{contactLabels.email}</p>
                 <p className="text-sm text-muted-foreground">{contact.email}</p>
               </div>
             </li>
@@ -62,7 +64,7 @@ export const ContactSection = ({
                 />
               </span>
               <div>
-                <p className="text-sm font-medium text-foreground">Address</p>
+                <p className="text-sm font-medium text-foreground">{contactLabels.address}</p>
                 <p className="text-sm text-muted-foreground">{contact.address}</p>
               </div>
             </li>

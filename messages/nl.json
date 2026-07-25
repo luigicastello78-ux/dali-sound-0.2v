@@ -37,198 +37,121 @@
   },
   "home": {
     "hero": {
-      "headline": "Gear that makes your event sound unforgettable.",
-      "subtitle": "Professional instruments, speakers, and stage equipment — delivered and set up across Switzerland, Germany, and France.",
-      "ctaPrimary": "Get a free quote",
-      "ctaSecondary": "Browse equipment",
+      "headline": "Apparatuur die je evenement onvergetelijk laat klinken.",
+      "subtitle": "Professionele instrumenten, speakers en podiumapparatuur — bezorgd en opgebouwd in Zwitserland, Duitsland en Frankrijk.",
+      "ctaPrimary": "Gratis offerte",
+      "ctaSecondary": "Apparatuur bekijken",
       "stats": [
-        {
-          "value": "1,200+",
-          "label": "Events powered"
-        },
-        {
-          "value": "500+",
-          "label": "Pieces of gear"
-        },
-        {
-          "value": "12",
-          "label": "Years on stage"
-        }
+        { "value": "1.200+", "label": "Evenementen verzorgd" },
+        { "value": "500+", "label": "Stukken apparatuur" },
+        { "value": "12", "label": "Jaar ervaring" }
       ]
     },
     "categories": {
-      "title": "Everything you need on stage.",
-      "subtitle": "Browse our core equipment categories — from keys and drums to full PA systems.",
-      "viewProducts": "View products",
+      "title": "Alles wat je op het podium nodig hebt.",
+      "subtitle": "Bekijk onze apparatuurcategorieën — van keyboards en drums tot complete PA-systemen.",
+      "viewProducts": "Producten bekijken",
       "items": [
-        {
-          "slug": "keyboards",
-          "name": "Keyboards",
-          "description": "Stage pianos, arrangers, and synths for live performance."
-        },
-        {
-          "slug": "drums",
-          "name": "Drums",
-          "description": "Acoustic and electronic kits for rehearsals and events."
-        },
-        {
-          "slug": "guitars",
-          "name": "Guitars",
-          "description": "Electric and acoustic guitars, amps, and accessories."
-        },
-        {
-          "slug": "speakers",
-          "name": "Speakers",
-          "description": "PA systems, subwoofers, and monitors for any venue size."
-        },
-        {
-          "slug": "mixers",
-          "name": "Mixers",
-          "description": "Analog and digital consoles for live sound and recording."
-        },
-        {
-          "slug": "microphones",
-          "name": "Microphones",
-          "description": "Vocal, instrument, and wireless mics for stage and events."
-        }
+        { "slug": "keyboards", "name": "Keyboards", "description": "Stagepianos, arrangers en synthesizers voor live optredens." },
+        { "slug": "drums", "name": "Drums", "description": "Akoestische en elektronische drumkits voor repetities en evenementen." },
+        { "slug": "guitars", "name": "Gitaren", "description": "Elektrische en akoestische gitaren, versterkers en accessoires." },
+        { "slug": "speakers", "name": "Speakers", "description": "PA-systemen, subwoofers en monitoren voor elke zaalgrootte." },
+        { "slug": "mixers", "name": "Mixers", "description": "Analoge en digitale mengpanelen voor live geluid en opname." },
+        { "slug": "microphones", "name": "Microfoons", "description": "Zang-, instrument- en draadloze microfoons voor podium en evenementen." }
       ]
     },
     "howItWorks": {
-      "title": "Renting is simple",
+      "title": "Huren is eenvoudig",
       "steps": [
-        {
-          "title": "Tell us about your event",
-          "description": "Share your date, location, and what gear you need — no commitment required."
-        },
-        {
-          "title": "Get a tailored quote",
-          "description": "We reply with a custom package and clear pricing for your event."
-        },
-        {
-          "title": "We deliver & set up",
-          "description": "Our team brings the equipment and handles setup before your guests arrive."
-        },
-        {
-          "title": "Enjoy the show",
-          "description": "Focus on your event — we can stay on-site for support if you need it."
-        }
+        { "title": "Vertel ons over je evenement", "description": "Deel de datum, locatie en benodigde apparatuur — vrijblijvend." },
+        { "title": "Ontvang een offerte op maat", "description": "Wij reageren met een pakket op maat en duidelijke prijzen." },
+        { "title": "Wij bezorgen en bouwen op", "description": "Ons team brengt de apparatuur en verzorgt de opbouw vóór je evenement." },
+        { "title": "Geniet van de show", "description": "Concentreer je op je evenement — wij kunnen ter plaatse blijven voor ondersteuning." }
       ]
     },
     "whyUs": {
-      "title": "Why DALI SOUND",
+      "title": "Waarom DALI SOUND",
       "items": [
-        {
-          "title": "Pro-grade gear",
-          "description": "Tour-ready instruments and sound equipment maintained to professional standards."
-        },
-        {
-          "title": "Delivery & setup",
-          "description": "We deliver across CH, DE, and FR and handle on-site installation."
-        },
-        {
-          "title": "On-site support",
-          "description": "Optional technical support during your event for peace of mind."
-        },
-        {
-          "title": "Regional coverage",
-          "description": "Trusted by organizers across Switzerland, Germany, and France."
-        }
+        { "title": "Professionele apparatuur", "description": "Tour-klare instrumenten en geluidsapparatuur, onderhouden volgens professionele normen." },
+        { "title": "Bezorging en opbouw", "description": "Bezorging in CH, DE en FR met installatie ter plaatse." },
+        { "title": "Ondersteuning ter plaatse", "description": "Optionele technische ondersteuning tijdens je evenement." },
+        { "title": "Regionale dekking", "description": "Vertrouwd door organisatoren in Zwitserland, Duitsland en Frankrijk." }
       ]
     },
     "gallery": {
-      "title": "From our past events",
+      "title": "Uit onze eerdere evenementen",
       "items": [
-        {
-          "title": "Wedding reception"
-        },
-        {
-          "title": "Open-air concert"
-        },
-        {
-          "title": "Corporate gala"
-        },
-        {
-          "title": "Club night"
-        },
-        {
-          "title": "Festival stage"
-        },
-        {
-          "title": "Private party"
-        }
+        { "title": "Huwelijksreceptie" },
+        { "title": "Openluchtconcert" },
+        { "title": "Bedrijfsgala" },
+        { "title": "Clubavond" },
+        { "title": "Festivalpodium" },
+        { "title": "Privéfeest" }
       ]
     },
     "faq": {
-      "title": "Frequently asked questions",
+      "title": "Veelgestelde vragen",
       "items": [
-        {
-          "question": "How far in advance should I book?",
-          "answer": "We recommend reaching out at least 2–4 weeks before your event. For peak season or large setups, earlier is better — we'll always do our best to accommodate last-minute requests."
-        },
-        {
-          "question": "Do you deliver and set up equipment?",
-          "answer": "Yes. We deliver and set up across Switzerland, Germany, and France. Delivery details and costs are confirmed in your quote."
-        },
-        {
-          "question": "Can I rent a single item?",
-          "answer": "Absolutely. You can request individual items or a full package — tell us what you need in the inquiry form."
-        },
-        {
-          "question": "What if something goes wrong on-site?",
-          "answer": "We offer optional on-site technical support. If an issue arises, contact us immediately and we'll help resolve it as quickly as possible."
-        },
-        {
-          "question": "How do I get a price?",
-          "answer": "All pricing is tailored to your event. Submit a quote request and we'll reply with a detailed offer — no online checkout required."
-        }
+        { "question": "Hoe ver van tevoren moet ik boeken?", "answer": "Wij raden aan om minstens 2–4 weken voor je evenement contact op te nemen. In het hoogseizoen of bij grote opstellingen liever eerder — we doen altijd ons best voor last-minute verzoeken." },
+        { "question": "Bezorgen en bouwen jullie de apparatuur op?", "answer": "Ja. Wij bezorgen en bouwen op in Zwitserland, Duitsland en Frankrijk. Leveringsdetails en kosten worden bevestigd in je offerte." },
+        { "question": "Kan ik een enkel item huren?", "answer": "Absoluut. Je kunt individuele items of een compleet pakket aanvragen — vertel ons wat je nodig hebt in het formulier." },
+        { "question": "Wat als er iets misgaat ter plaatse?", "answer": "Wij bieden optionele technische ondersteuning ter plaatse. Bij een probleem, neem direct contact met ons op en we helpen zo snel mogelijk." },
+        { "question": "Hoe krijg ik een prijs?", "answer": "Alle prijzen zijn afgestemd op je evenement. Dien een offerteaanvraag in en wij reageren met een gedetailleerd aanbod." }
       ]
     },
     "contact": {
-      "title": "Tell us what you need",
-      "subtitle": "Fill in the form and we'll get back to you with a tailored quote."
+      "title": "Vertel ons wat je nodig hebt",
+      "subtitle": "Vul het formulier in en wij reageren met een offerte op maat."
     }
   },
   "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "phone": "Phone number",
-    "eventDate": "Event date",
-    "country": "Country",
-    "countryPlaceholder": "Select country",
-    "countries": {
-      "CH": "Switzerland",
-      "DE": "Germany",
-      "FR": "France"
-    },
-    "message": "Message",
-    "submit": "Send request",
-    "sending": "Sending...",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "eventDate": "Datum evenement",
+    "country": "Land",
+    "countryPlaceholder": "Selecteer land",
+    "countries": { "CH": "Zwitserland", "DE": "Duitsland", "FR": "Frankrijk" },
+    "message": "Bericht",
+    "submit": "Verzoek verzenden",
+    "sending": "Verzenden...",
     "errors": {
-      "nameRequired": "Name is required.",
-      "emailRequired": "Email is required.",
-      "emailInvalid": "Please enter a valid email address.",
-      "phoneRequired": "Phone number is required.",
-      "eventDateRequired": "Event date is required.",
-      "countryRequired": "Please select a country.",
-      "messageRequired": "Message is required.",
-      "submitFailed": "Unable to send your request right now. Please try again later."
+      "nameRequired": "Naam is verplicht.",
+      "emailRequired": "E-mail is verplicht.",
+      "emailInvalid": "Voer een geldig e-mailadres in.",
+      "phoneRequired": "Telefoonnummer is verplicht.",
+      "eventDateRequired": "Datum van het evenement is verplicht.",
+      "countryRequired": "Selecteer een land.",
+      "messageRequired": "Bericht is verplicht.",
+      "submitFailed": "Verzoek kon momenteel niet worden verzonden. Probeer het later opnieuw."
     }
   },
   "thankYou": {
-    "title": "Request sent",
-    "message": "Thank you for your inquiry. We'll review your request and get back to you shortly.",
-    "backHome": "Back to home"
+    "title": "Verzoek verzonden",
+    "message": "Bedankt voor je aanvraag. We bekijken je verzoek en nemen spoedig contact op.",
+    "backHome": "Terug naar home"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die je zoekt bestaat niet.",
+    "backHome": "Terug naar home"
+  },
+  "contactLabels": {
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "address": "Adres"
   },
   "catalog": {
-    "equipment": "Equipment",
-    "subcategories": "Subcategories",
-    "products": "Products",
-    "specs": "Specifications",
-    "backToHome": "Back to home",
-    "backToCategory": "Back to category",
-    "backToSubcategory": "Back to subcategory",
-    "emptySubcategories": "No subcategories available yet.",
-    "emptyProducts": "No products available in this subcategory yet.",
-    "getQuote": "Get a quote"
+    "home": "Home",
+    "equipment": "Apparatuur",
+    "subcategories": "Subcategorieën",
+    "products": "Producten",
+    "specs": "Specificaties",
+    "backToHome": "Terug naar home",
+    "backToCategory": "Terug naar categorie",
+    "backToSubcategory": "Terug naar subcategorie",
+    "emptySubcategories": "Nog geen subcategorieën beschikbaar.",
+    "emptyProducts": "Nog geen producten beschikbaar in deze subcategorie.",
+    "getQuote": "Offerte aanvragen"
   }
 }

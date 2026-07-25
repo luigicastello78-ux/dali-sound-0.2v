@@ -61,8 +61,10 @@ export const generateMetadata = async ({
     return {};
   }
 
+  const dictionary = await getDictionary(localeParam as Locale);
+
   return {
-    title: `${subcategory.name} | DALI SOUND`,
+    title: `${subcategory.name} | ${dictionary.brand}`,
     description: subcategory.description,
   };
 };
@@ -102,7 +104,7 @@ export default async function SubcategoryPage({ params }: SubcategoryPageProps) 
             href: localizedPath(locale, `/equipment/${category.slug}`),
           },
           { label: subcategory.name },
-        ])}
+        ], dictionary.catalog.home)}
         className="mb-8"
       />
 
