@@ -1,11 +1,15 @@
 ---
-name: Korg M3
 slug: korg-m3
+name: Korg M3
+description: Versatile music workstation and sampler with EDS synthesis — a strong all-rounder for studio and stage.
+specs: |-
+  - 61, 73, or 88-key models available
+  - EDS (Enhanced Definition Synthesis) sound engine
+  - Color TouchView display with KARMA technology
+  - Built-in sampling and sequencing
+  - Joystick, ribbon, and assignable controllers
 subcategory: solo-keyboards
-description: Korg M3 is a professional music workstation keyboard for live performance, recording, and sound creation.
-specs:
-  - 'Korg M3: Professional workstation keyboard with 120-note polyphony, touchscreen, sequencer, and KARMA.'
 order: 1
-image: /uploads/korg m3 (1).jpg
+image: /uploads/korg-m3.png
 gallery: []
 ---
