@@ -28,8 +28,8 @@ export const CatalogCard = ({
 }: CatalogCardProps) => {
   return (
     <Link href={href} className="group block h-full">
-      <Card className="h-full overflow-hidden border-border/60 bg-card/50 transition-colors hover:border-primary/40 hover:bg-card">
-        <div className="relative aspect-[16/10] overflow-hidden border-b border-border/60 bg-muted/20">
+      <Card className="h-full gap-0 overflow-hidden border-border/60 bg-card/50 py-0 transition-colors hover:border-primary/40 hover:bg-card">
+        <div className="relative aspect-[16/10] overflow-hidden rounded-t-xl bg-muted/20">
           {image ? (
             <Image
               src={image}
@@ -46,7 +46,7 @@ export const CatalogCard = ({
             </div>
           )}
         </div>
-        <CardHeader className="gap-3">
+        <CardHeader className="gap-3 p-6">
           <CardTitle className="font-heading text-xl">{title}</CardTitle>
           <CardDescription className="leading-relaxed">
             {description}
