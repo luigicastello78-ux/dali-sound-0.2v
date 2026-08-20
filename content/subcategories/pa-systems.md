@@ -4,6 +4,6 @@ name: PA Systems
 description: Main PA speakers and subwoofers.
 category: speakers
 order: 1
-image: ''
+image: /uploads/subcategories/pa-systems.jpg
 ---
 

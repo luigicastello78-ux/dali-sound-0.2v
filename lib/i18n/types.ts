@@ -7,6 +7,7 @@ export type HomeCategory = {
   slug: string;
   name: string;
   description: string;
+  image?: string;
 };
 
 export type HomeStep = {

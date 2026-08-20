@@ -4,6 +4,6 @@ name: Vocal Microphones
 description: Dynamic and condenser mics for vocals.
 category: microphones
 order: 1
-image: ''
+image: /uploads/subcategories/vocal-microphones.jpg
 ---
 

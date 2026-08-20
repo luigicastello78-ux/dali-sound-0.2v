@@ -4,6 +4,6 @@ name: Analog Mixers
 description: Reliable analog mixing consoles.
 category: mixers
 order: 1
-image: ''
+image: /uploads/subcategories/analog-mixers.jpg
 ---
 

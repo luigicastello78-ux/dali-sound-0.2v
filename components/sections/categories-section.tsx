@@ -59,7 +59,7 @@ export const CategoriesSection = ({
       <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((category) => {
           const Icon = categoryIcons[category.slug] ?? MusicNote01Icon;
-          const imageSrc = CATEGORY_IMAGES[category.slug];
+          const imageSrc = category.image || CATEGORY_IMAGES[category.slug];
 
           return (
             <Link

@@ -4,6 +4,6 @@ name: Digital Mixers
 description: Digital consoles with recall and effects.
 category: mixers
 order: 2
-image: ''
+image: /uploads/subcategories/digital-mixers.jpg
 ---
 

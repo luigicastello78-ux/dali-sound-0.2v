@@ -4,6 +4,6 @@ name: Electric Guitars
 description: Solid-body and semi-hollow electric guitars.
 category: guitars
 order: 1
-image: ''
+image: /uploads/subcategories/electric-guitars.jpg
 ---
 

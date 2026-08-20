@@ -48,6 +48,7 @@ export default async function HomePage({ params }: HomePageProps) {
     slug: category.slug,
     name: category.name,
     description: category.description,
+    image: category.image,
   }));
 
   return (

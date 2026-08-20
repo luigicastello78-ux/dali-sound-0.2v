@@ -4,6 +4,6 @@ name: Solo Keyboards
 description: Stage pianos and performance keyboards.
 category: keyboards
 order: 1
-image: ''
+image: /uploads/subcategories/solo-keyboards.jpg
 ---
 
