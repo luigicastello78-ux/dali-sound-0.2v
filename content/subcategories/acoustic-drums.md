@@ -1,9 +1,8 @@
 ---
-slug: acoustic-drums
 name: Acoustic Drums
-description: Full acoustic kits for live events.
+slug: acoustic-drums
 category: drums
+description: Full acoustic kits for live events.
 order: 1
-image: /uploads/subcategories/acoustic-drums.jpg
+image: /uploads/acoustic.jpg
 ---
-
