@@ -1,8 +1,7 @@
 ---
-slug: drums
 name: Drums
+slug: drums
 description: Acoustic and electronic kits for rehearsals and events.
 order: 2
-image: /uploads/categories/drums.jpg
+image: /uploads/drums.jfif
 ---
-
