@@ -1,9 +1,8 @@
 ---
-slug: analog-mixers
 name: Analog Mixers
-description: Reliable analog mixing consoles.
+slug: analog-mixers
 category: mixers
+description: Reliable analog mixing consoles.
 order: 1
-image: /uploads/subcategories/analog-mixers.jpg
+image: /uploads/powermate-1600_persp_left_01.jpg
 ---
-
