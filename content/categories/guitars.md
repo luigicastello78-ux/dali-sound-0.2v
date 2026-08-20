@@ -1,8 +1,7 @@
 ---
-slug: guitars
 name: Guitars
-description: 'Electric and acoustic guitars, amps, and accessories.'
+slug: guitars
+description: Electric and acoustic guitars, amps, and accessories.
 order: 3
-image: /uploads/categories/guitars.jpg
+image: /uploads/images (2).jfif
 ---
-
