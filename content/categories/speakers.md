@@ -1,8 +1,7 @@
 ---
-slug: speakers
 name: Speakers
-description: 'PA systems, subwoofers, and monitors for any venue size.'
+slug: speakers
+description: PA systems, subwoofers, and monitors for any venue size.
 order: 4
-image: /uploads/categories/speakers.jpg
+image: /uploads/clint-patterson-pHSjhC6s80M-unsplash-860-min.jpg
 ---
-
