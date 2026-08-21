@@ -1,9 +1,8 @@
 ---
-slug: electronic-drums
 name: Electronic Drums
-description: Compact electronic kits for tight stages.
+slug: electronic-drums
 category: drums
+description: Compact electronic kits for tight stages.
 order: 2
-image: /uploads/subcategories/electronic-drums.jpg
+image: /uploads/drums elec.jpg
 ---
-
