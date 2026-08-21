@@ -1,9 +1,8 @@
 ---
-slug: solo-keyboards
 name: Solo Keyboards
-description: Stage pianos and performance keyboards.
+slug: solo-keyboards
 category: keyboards
+description: Stage pianos and performance keyboards.
 order: 1
-image: /uploads/subcategories/solo-keyboards.jpg
+image: /uploads/korg kronos-3.jpg
 ---
-
